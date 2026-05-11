@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stack Overflow 学習者つまづき分析 | Tetsu Nakae Portfolio</title>
+  <meta name="description" content="Stack Overflow のデータから学習者がつまづくポイントを分析。言語の盛衰からタグ共起ネットワーク、具体的なつまづきパターンまで3層で可視化。">
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="static/css/scrollytelling.css">
+  <link rel="stylesheet" href="static/css/responsive.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav>
+      <span class="site-title">SO Learner Pitfalls</span>
+      <a href="network.html">ネットワーク詳細</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ヒーロー -->
+    <section class="hero">
+      <h1>学習者は<br>どこでつまづくのか</h1>
+      <p class="hero-sub">Stack Overflow 1,000万件超の質問データが語る、IT学習の現実</p>
+      <span class="scroll-hint">↓ スクロールして読む</span>
+    </section>
+
+    <!-- 第1幕: 言語の地殻変動 -->
+    <section class="act" id="act1" data-act="1">
+      <div class="act-sticky">
+        <div class="act-label">第1幕</div>
+        <h2>言語の地殻変動</h2>
+        <p class="act-body">
+          過去10年で、プログラマーが最も悩んだ言語はどう変わったのか。
+          Stack Overflow への質問数は、学習需要の実態を映す鏡だ。
+        </p>
+      </div>
+      <div class="act-chart" id="chart-trend">
+        <!-- Plotly で描画（build_site.py 実行後に有効化） -->
+        <div class="chart-placeholder">トレンドチャート（分析データ生成後に表示）</div>
+      </div>
+    </section>
+
+    <!-- 第2幕: 言語別つまづきマップ -->
+    <section class="act" id="act2" data-act="2">
+      <div class="act-sticky">
+        <div class="act-label">第2幕</div>
+        <h2>言語別つまづきマップ</h2>
+        <p class="act-body">
+          タグの共起ネットワークが示す「学習の地形図」。
+          中心に位置するほど多くの学習者が通過するタグだ。
+        </p>
+        <div class="language-tabs" id="language-tabs">
+          <button class="tab active" data-lang="python">Python</button>
+          <button class="tab" data-lang="javascript">JavaScript</button>
+          <button class="tab" data-lang="java">Java</button>
+          <button class="tab" data-lang="go">Go</button>
+        </div>
+      </div>
+      <div class="act-chart" id="chart-network">
+        <!-- D3.js force-directed graph -->
+        <div class="chart-placeholder">ネットワーク図（分析データ生成後に表示）</div>
+      </div>
+    </section>
+
+    <!-- 第3幕: Pythonの罠トップ20 -->
+    <section class="act" id="act3" data-act="3">
+      <div class="act-sticky">
+        <div class="act-label">第3幕</div>
+        <h2>Pythonの罠 トップ20</h2>
+        <p class="act-body">
+          Python学習者が最も頻繁に直面する問題カテゴリ。
+          テキストマイニングで質問本文を解析し、パターンを抽出した。
+        </p>
+      </div>
+      <div class="act-chart" id="chart-pitfalls">
+        <!-- Plotly 横棒グラフ -->
+        <div class="chart-placeholder">つまづきランキング（分析データ生成後に表示）</div>
+      </div>
+    </section>
+
+    <!-- 第4幕: 学習ロードマップへの示唆 -->
+    <section class="act" id="act4" data-act="4">
+      <div class="act-sticky">
+        <div class="act-label">第4幕</div>
+        <h2>学習ロードマップへの示唆</h2>
+        <p class="act-body">
+          データが示す3つの提言。
+        </p>
+        <div class="insights" id="insights">
+          <!-- build_site.py 実行後にコンテンツを挿入 -->
+          <div class="insight-placeholder">分析完了後に提言を掲載</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>データソース: Stack Exchange API v2.3 / Stack Overflow Developer Survey</p>
+    <p>CC BY-SA 4.0 | <a href="about.html">詳細・免責事項</a></p>
+  </footer>
+
+  <script src="static/lib/d3.v7.min.js"></script>
+  <script src="static/js/scroll.js"></script>
+  <script src="static/js/network.js"></script>
+  <script src="static/js/charts.js"></script>
+  <script src="static/js/language_switch.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タグ共起ネットワーク詳細 | Stack Overflow 学習者つまづき分析</title>
+  <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav>
+      <a href="index.html" class="site-title">SO Learner Pitfalls</a>
+      <a href="network.html" class="active">ネットワーク詳細</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="network-main">
+
+    <h1>タグ共起ネットワーク</h1>
+    <p>言語を選択してネットワークを切り替えられます。ノードをドラッグして配置を調整できます。</p>
+
+    <div class="language-tabs" id="language-tabs">
+      <button class="tab active" data-lang="python">Python</button>
+      <button class="tab" data-lang="javascript">JavaScript</button>
+      <button class="tab" data-lang="java">Java</button>
+      <button class="tab" data-lang="go">Go</button>
+    </div>
+
+    <div id="network-container">
+      <!-- D3.js force-directed graph がここに描画される -->
+    </div>
+
+    <div id="node-detail" class="node-detail hidden">
+      <h3 id="node-name"></h3>
+      <p id="node-count"></p>
+      <p id="node-community"></p>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>データ: Stack Exchange API v2.3 | CC BY-SA 4.0</p>
+  </footer>
+
+  <script src="static/lib/d3.v7.min.js"></script>
+  <script src="static/js/network.js"></script>
+  <script src="static/js/language_switch.js"></script>
+</body>
+</html>

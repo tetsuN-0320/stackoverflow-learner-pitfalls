@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Stack Overflow 学習者つまづき分析</title>
+  <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav>
+      <a href="index.html" class="site-title">SO Learner Pitfalls</a>
+      <a href="network.html">ネットワーク詳細</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+  </header>
+
+  <main class="about-main">
+
+    <h1>About このプロジェクト</h1>
+
+    <section>
+      <h2>データソース</h2>
+      <ul>
+        <li>
+          <strong>Stack Exchange API v2.3</strong><br>
+          Stack Overflow の質問・タグデータを取得。
+          <a href="https://stackoverflow.com/legal/terms-of-service/public" target="_blank" rel="noopener">
+            Stack Exchange Network 利用規約
+          </a> に基づき、
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> で利用。
+        </li>
+        <li>
+          <strong>Stack Overflow Developer Survey</strong><br>
+          年次開発者調査データ。
+          <a href="https://insights.stackoverflow.com/survey" target="_blank" rel="noopener">
+            insights.stackoverflow.com/survey
+          </a> より取得。
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>分析手法</h2>
+      <ul>
+        <li><strong>マクロ分析</strong>: 言語別タグの質問数推移（2015〜2024年）</li>
+        <li><strong>メゾ分析</strong>: タグ共起ネットワーク（networkx + Louvain法によるコミュニティ検出）</li>
+        <li><strong>ミクロ分析</strong>: 質問本文のトピッククラスタリング（TF-IDF + HDBSCAN）</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>利用技術</h2>
+      <p>Python / pandas / scikit-learn / networkx / NLTK / Plotly / D3.js</p>
+    </section>
+
+    <section>
+      <h2>免責事項</h2>
+      <p>
+        本サイトは学習・ポートフォリオ目的で作成されています。
+        データの正確性については可能な限り検証していますが、保証するものではありません。
+        Stack Overflow / Stack Exchange は Stack Exchange Inc. の商標です。
+      </p>
+    </section>
+
+    <section>
+      <h2>作者</h2>
+      <p>
+        中江 哲夫（Tetsu Nakae）<br>
+        データアナリスト・マーケティングプランナー<br>
+        <a href="https://github.com/tetsuN-0320" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>データ: CC BY-SA 4.0（Stack Exchange Network より） | コード: MIT License</p>
+  </footer>
+
+</body>
+</html>

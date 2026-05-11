@@ -1,0 +1,64 @@
+languages:
+  python:
+    tag: python
+    display_name: Python
+    color: "#3776AB"
+    related_tags:
+      - pandas
+      - numpy
+      - django
+      - flask
+      - scikit-learn
+      - tensorflow
+      - pytorch
+      - matplotlib
+      - asyncio
+      - fastapi
+
+  javascript:
+    tag: javascript
+    display_name: JavaScript
+    color: "#F7DF1E"
+    related_tags:
+      - node.js
+      - react.js
+      - vue.js
+      - typescript
+      - express
+      - next.js
+      - angular
+      - webpack
+      - promise
+      - async-await
+
+  java:
+    tag: java
+    display_name: Java
+    color: "#ED8B00"
+    related_tags:
+      - spring
+      - spring-boot
+      - maven
+      - gradle
+      - hibernate
+      - junit
+      - android
+      - multithreading
+      - jdbc
+      - rest
+
+  go:
+    tag: go
+    display_name: Go
+    color: "#00ADD8"
+    related_tags:
+      - goroutine
+      - channels
+      - gin
+      - golang
+      - interface
+      - struct
+      - go-modules
+      - http
+      - context
+      - generics

@@ -1,0 +1,30 @@
+/* レスポンシブ対応: モバイル（768px以下）ではグリッドを縦積みに変更 */
+
+@media (max-width: 768px) {
+  .act {
+    grid-template-columns: 1fr;
+  }
+
+  .act-sticky {
+    position: static;
+    max-width: 100%;
+    padding: var(--spacing-md);
+  }
+
+  .act-chart {
+    padding: var(--spacing-md);
+    min-height: 300px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .language-tabs {
+    flex-wrap: wrap;
+  }
+
+  .site-header nav {
+    gap: var(--spacing-sm);
+  }
+}

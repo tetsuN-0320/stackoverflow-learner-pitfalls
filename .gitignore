@@ -1,0 +1,34 @@
+# 環境変数（APIキー）- コミット厳禁
+.env
+
+# 仮想環境
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 生データ・中間データ（大容量・再現可能なためコミット不要）
+data/raw/stackex_cache.sqlite
+data/raw/developer_survey/**/*.csv
+data/raw/developer_survey/**/*.zip
+data/processed/*.parquet
+data/analysis/*.parquet
+data/analysis/networks/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# ログ
+logs/*.log
+
+# IDEの設定
+.vscode/settings.json
