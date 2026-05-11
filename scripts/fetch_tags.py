@@ -1,4 +1,4 @@
-"""タグ統計を Stack Exchange API から取得する CLI スクリプト。"""
+"""タグ統計を Stack Exchange API から取得して parquet に保存する CLI スクリプト。"""
 from __future__ import annotations
 
 import sys
@@ -6,15 +6,15 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from src.api.data_fetcher import DataFetcher
 from src.utils.logger import logger
 
 
 def main() -> None:
-    logger.info("タグ統計取得開始")
-    from src.api.data_fetcher import DataFetcher
     fetcher = DataFetcher()
     df = fetcher.fetch_tag_statistics()
-    logger.info(f"取得完了: {len(df)}件")
+    fetcher.save_tags(df)
+    logger.info("完了")
 
 
 if __name__ == "__main__":

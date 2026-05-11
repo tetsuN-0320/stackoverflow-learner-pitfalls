@@ -113,14 +113,18 @@ class StackExClient:
             page += 1
 
     def fetch_tag_info(self, tags: list[str]) -> dict[str, Any]:
-        """タグの統計情報（質問数・タグ名）を取得する。"""
+        """指定タグの統計情報（質問数・タグ名）を取得する。
+
+        /tags/{tags}/info エンドポイントを使い完全一致で複数タグを一括取得する。
+        inname パラメータは部分一致検索のため、想定タグが返らない場合がある。
+        """
+        tags_path = ";".join(tags)
         params = self._common_params(
-            inname=";".join(tags),
             order="desc",
             sort="popular",
             pagesize=STACKEX_PAGE_SIZE,
         )
-        return self._get("tags", params)
+        return self._get(f"tags/{tags_path}/info", params)
 
     @staticmethod
     def year_to_timestamps(year: int) -> tuple[int, int]:

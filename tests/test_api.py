@@ -1,19 +1,14 @@
 from __future__ import annotations
 
 import pytest
+from src.utils.cache import SqliteCache
 
 
 class TestSqliteCache:
     def test_cache_key_is_deterministic(self) -> None:
-        from pathlib import Path
-        import tempfile
-        from src.utils.cache import SqliteCache
-
-        with tempfile.TemporaryDirectory() as tmp:
-            cache = SqliteCache(Path(tmp) / "test.sqlite")
-            key1 = SqliteCache._make_key({"a": 1, "b": "x"})
-            key2 = SqliteCache._make_key({"b": "x", "a": 1})
-            assert key1 == key2
+        key1 = SqliteCache._make_key({"a": 1, "b": "x"})
+        key2 = SqliteCache._make_key({"b": "x", "a": 1})
+        assert key1 == key2
 
     def test_cache_set_and_get(self) -> None:
         from pathlib import Path

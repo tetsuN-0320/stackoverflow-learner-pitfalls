@@ -30,5 +30,6 @@ data/analysis/networks/
 # ログ
 logs/*.log
 
-# IDEの設定
-.vscode/settings.json
+# IDEの設定（ローカルのみのもの）
+.vscode/launch.json
+.vscode/*.code-snippets
