@@ -1,0 +1,1556 @@
+{
+  "nodes": [
+    {
+      "id": "java",
+      "frequency": 2973,
+      "community": 3,
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.2595
+    },
+    {
+      "id": "jsp",
+      "frequency": 26,
+      "community": 1,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.1215
+    },
+    {
+      "id": "spring-mvc",
+      "frequency": 43,
+      "community": 1,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.0341
+    },
+    {
+      "id": "list",
+      "frequency": 20,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0357
+    },
+    {
+      "id": "swing",
+      "frequency": 109,
+      "community": 3,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0576
+    },
+    {
+      "id": "android",
+      "frequency": 584,
+      "community": 3,
+      "degree_centrality": 0.3108,
+      "betweenness_centrality": 0.21
+    },
+    {
+      "id": "xml",
+      "frequency": 44,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "android-layout",
+      "frequency": 19,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0204
+    },
+    {
+      "id": "jpa",
+      "frequency": 53,
+      "community": 1,
+      "degree_centrality": 0.1081,
+      "betweenness_centrality": 0.0069
+    },
+    {
+      "id": "spring-boot",
+      "frequency": 249,
+      "community": 1,
+      "degree_centrality": 0.3378,
+      "betweenness_centrality": 0.2671
+    },
+    {
+      "id": "hibernate",
+      "frequency": 74,
+      "community": 1,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "generics",
+      "frequency": 28,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "image",
+      "frequency": 21,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "servlets",
+      "frequency": 22,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0252
+    },
+    {
+      "id": "java-8",
+      "frequency": 34,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0075
+    },
+    {
+      "id": "linux",
+      "frequency": 16,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "intellij-idea",
+      "frequency": 40,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0078
+    },
+    {
+      "id": "javafx",
+      "frequency": 76,
+      "community": 3,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0284
+    },
+    {
+      "id": "spring",
+      "frequency": 234,
+      "community": 1,
+      "degree_centrality": 0.2432,
+      "betweenness_centrality": 0.0568
+    },
+    {
+      "id": "amazon-web-services",
+      "frequency": 20,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "mongodb",
+      "frequency": 16,
+      "community": 1,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "mysql",
+      "frequency": 47,
+      "community": 1,
+      "degree_centrality": 0.1216,
+      "betweenness_centrality": 0.0867
+    },
+    {
+      "id": "jdbc",
+      "frequency": 23,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "eclipse",
+      "frequency": 58,
+      "community": 3,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0994
+    },
+    {
+      "id": "class",
+      "frequency": 19,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "android-studio",
+      "frequency": 61,
+      "community": 3,
+      "degree_centrality": 0.1081,
+      "betweenness_centrality": 0.1116
+    },
+    {
+      "id": "rest",
+      "frequency": 41,
+      "community": 1,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0141
+    },
+    {
+      "id": "maven",
+      "frequency": 84,
+      "community": 3,
+      "degree_centrality": 0.1081,
+      "betweenness_centrality": 0.0351
+    },
+    {
+      "id": "android-fragments",
+      "frequency": 24,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "listview",
+      "frequency": 18,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "junit",
+      "frequency": 33,
+      "community": 2,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0063
+    },
+    {
+      "id": "methods",
+      "frequency": 20,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0014
+    },
+    {
+      "id": "arrays",
+      "frequency": 77,
+      "community": 3,
+      "degree_centrality": 0.1081,
+      "betweenness_centrality": 0.1092
+    },
+    {
+      "id": "jvm",
+      "frequency": 18,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "performance",
+      "frequency": 18,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "exception",
+      "frequency": 19,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "sql",
+      "frequency": 19,
+      "community": 3,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0068
+    },
+    {
+      "id": "oop",
+      "frequency": 22,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "string",
+      "frequency": 33,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.023
+    },
+    {
+      "id": "arraylist",
+      "frequency": 45,
+      "community": 3,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0149
+    },
+    {
+      "id": "user-interface",
+      "frequency": 24,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "sorting",
+      "frequency": 14,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0217
+    },
+    {
+      "id": "jframe",
+      "frequency": 16,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "spring-security",
+      "frequency": 21,
+      "community": 1,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "multithreading",
+      "frequency": 63,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.1185
+    },
+    {
+      "id": "html",
+      "frequency": 22,
+      "community": 1,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.077
+    },
+    {
+      "id": "netbeans",
+      "frequency": 23,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.011
+    },
+    {
+      "id": "unit-testing",
+      "frequency": 19,
+      "community": 2,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0041
+    },
+    {
+      "id": "gradle",
+      "frequency": 38,
+      "community": 3,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0929
+    },
+    {
+      "id": "tomcat",
+      "frequency": 30,
+      "community": 3,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0162
+    },
+    {
+      "id": "serialization",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "android-recyclerview",
+      "frequency": 23,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "regex",
+      "frequency": 23,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "algorithm",
+      "frequency": 30,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0222
+    },
+    {
+      "id": "json",
+      "frequency": 64,
+      "community": 3,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.0859
+    },
+    {
+      "id": "jackson",
+      "frequency": 16,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0163
+    },
+    {
+      "id": "database",
+      "frequency": 18,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0281
+    },
+    {
+      "id": "sqlite",
+      "frequency": 16,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0241
+    },
+    {
+      "id": "mockito",
+      "frequency": 17,
+      "community": 2,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0159
+    },
+    {
+      "id": "nullpointerexception",
+      "frequency": 19,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "sockets",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "selenium",
+      "frequency": 31,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.022
+    },
+    {
+      "id": "logging",
+      "frequency": 17,
+      "community": 1,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "selenium-webdriver",
+      "frequency": 23,
+      "community": 0,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "firebase",
+      "frequency": 45,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0038
+    },
+    {
+      "id": "hashmap",
+      "frequency": 19,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "data-structures",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "apache-spark",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "java-stream",
+      "frequency": 30,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0004
+    },
+    {
+      "id": "thymeleaf",
+      "frequency": 14,
+      "community": 1,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0429
+    },
+    {
+      "id": "spring-data",
+      "frequency": 18,
+      "community": 1,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0203
+    },
+    {
+      "id": "firebase-realtime-database",
+      "frequency": 20,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "spring-data-jpa",
+      "frequency": 42,
+      "community": 1,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.0095
+    },
+    {
+      "id": "kotlin",
+      "frequency": 51,
+      "community": 3,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0413
+    },
+    {
+      "id": "docker",
+      "frequency": 18,
+      "community": 1,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.002
+    }
+  ],
+  "links": [
+    {
+      "source": "java",
+      "target": "jsp",
+      "weight": 26
+    },
+    {
+      "source": "java",
+      "target": "spring-mvc",
+      "weight": 43
+    },
+    {
+      "source": "java",
+      "target": "list",
+      "weight": 20
+    },
+    {
+      "source": "java",
+      "target": "swing",
+      "weight": 109
+    },
+    {
+      "source": "java",
+      "target": "android",
+      "weight": 584
+    },
+    {
+      "source": "java",
+      "target": "android-layout",
+      "weight": 19
+    },
+    {
+      "source": "java",
+      "target": "xml",
+      "weight": 44
+    },
+    {
+      "source": "java",
+      "target": "jpa",
+      "weight": 53
+    },
+    {
+      "source": "java",
+      "target": "spring-boot",
+      "weight": 249
+    },
+    {
+      "source": "java",
+      "target": "hibernate",
+      "weight": 74
+    },
+    {
+      "source": "java",
+      "target": "generics",
+      "weight": 28
+    },
+    {
+      "source": "java",
+      "target": "image",
+      "weight": 21
+    },
+    {
+      "source": "java",
+      "target": "servlets",
+      "weight": 22
+    },
+    {
+      "source": "java",
+      "target": "java-8",
+      "weight": 34
+    },
+    {
+      "source": "java",
+      "target": "intellij-idea",
+      "weight": 40
+    },
+    {
+      "source": "java",
+      "target": "javafx",
+      "weight": 76
+    },
+    {
+      "source": "java",
+      "target": "linux",
+      "weight": 16
+    },
+    {
+      "source": "java",
+      "target": "amazon-web-services",
+      "weight": 20
+    },
+    {
+      "source": "java",
+      "target": "spring",
+      "weight": 234
+    },
+    {
+      "source": "java",
+      "target": "mongodb",
+      "weight": 16
+    },
+    {
+      "source": "java",
+      "target": "jdbc",
+      "weight": 23
+    },
+    {
+      "source": "java",
+      "target": "mysql",
+      "weight": 47
+    },
+    {
+      "source": "java",
+      "target": "eclipse",
+      "weight": 58
+    },
+    {
+      "source": "java",
+      "target": "class",
+      "weight": 19
+    },
+    {
+      "source": "java",
+      "target": "android-studio",
+      "weight": 61
+    },
+    {
+      "source": "java",
+      "target": "maven",
+      "weight": 84
+    },
+    {
+      "source": "java",
+      "target": "rest",
+      "weight": 41
+    },
+    {
+      "source": "java",
+      "target": "android-fragments",
+      "weight": 24
+    },
+    {
+      "source": "java",
+      "target": "listview",
+      "weight": 18
+    },
+    {
+      "source": "java",
+      "target": "junit",
+      "weight": 33
+    },
+    {
+      "source": "java",
+      "target": "methods",
+      "weight": 20
+    },
+    {
+      "source": "java",
+      "target": "arrays",
+      "weight": 77
+    },
+    {
+      "source": "java",
+      "target": "jvm",
+      "weight": 18
+    },
+    {
+      "source": "java",
+      "target": "exception",
+      "weight": 19
+    },
+    {
+      "source": "java",
+      "target": "performance",
+      "weight": 18
+    },
+    {
+      "source": "java",
+      "target": "sql",
+      "weight": 19
+    },
+    {
+      "source": "java",
+      "target": "oop",
+      "weight": 22
+    },
+    {
+      "source": "java",
+      "target": "string",
+      "weight": 33
+    },
+    {
+      "source": "java",
+      "target": "arraylist",
+      "weight": 45
+    },
+    {
+      "source": "java",
+      "target": "user-interface",
+      "weight": 24
+    },
+    {
+      "source": "java",
+      "target": "sorting",
+      "weight": 14
+    },
+    {
+      "source": "java",
+      "target": "jframe",
+      "weight": 16
+    },
+    {
+      "source": "java",
+      "target": "spring-security",
+      "weight": 21
+    },
+    {
+      "source": "java",
+      "target": "multithreading",
+      "weight": 63
+    },
+    {
+      "source": "java",
+      "target": "html",
+      "weight": 22
+    },
+    {
+      "source": "java",
+      "target": "netbeans",
+      "weight": 23
+    },
+    {
+      "source": "java",
+      "target": "gradle",
+      "weight": 38
+    },
+    {
+      "source": "java",
+      "target": "unit-testing",
+      "weight": 19
+    },
+    {
+      "source": "java",
+      "target": "tomcat",
+      "weight": 30
+    },
+    {
+      "source": "java",
+      "target": "serialization",
+      "weight": 15
+    },
+    {
+      "source": "java",
+      "target": "android-recyclerview",
+      "weight": 23
+    },
+    {
+      "source": "java",
+      "target": "regex",
+      "weight": 23
+    },
+    {
+      "source": "java",
+      "target": "algorithm",
+      "weight": 30
+    },
+    {
+      "source": "java",
+      "target": "jackson",
+      "weight": 16
+    },
+    {
+      "source": "java",
+      "target": "json",
+      "weight": 64
+    },
+    {
+      "source": "java",
+      "target": "database",
+      "weight": 18
+    },
+    {
+      "source": "java",
+      "target": "sqlite",
+      "weight": 16
+    },
+    {
+      "source": "java",
+      "target": "mockito",
+      "weight": 17
+    },
+    {
+      "source": "java",
+      "target": "nullpointerexception",
+      "weight": 19
+    },
+    {
+      "source": "java",
+      "target": "sockets",
+      "weight": 15
+    },
+    {
+      "source": "java",
+      "target": "selenium",
+      "weight": 31
+    },
+    {
+      "source": "java",
+      "target": "logging",
+      "weight": 17
+    },
+    {
+      "source": "java",
+      "target": "selenium-webdriver",
+      "weight": 23
+    },
+    {
+      "source": "java",
+      "target": "firebase",
+      "weight": 45
+    },
+    {
+      "source": "java",
+      "target": "hashmap",
+      "weight": 19
+    },
+    {
+      "source": "java",
+      "target": "data-structures",
+      "weight": 15
+    },
+    {
+      "source": "java",
+      "target": "apache-spark",
+      "weight": 15
+    },
+    {
+      "source": "java",
+      "target": "java-stream",
+      "weight": 30
+    },
+    {
+      "source": "java",
+      "target": "thymeleaf",
+      "weight": 14
+    },
+    {
+      "source": "java",
+      "target": "spring-data",
+      "weight": 18
+    },
+    {
+      "source": "java",
+      "target": "firebase-realtime-database",
+      "weight": 20
+    },
+    {
+      "source": "java",
+      "target": "spring-data-jpa",
+      "weight": 42
+    },
+    {
+      "source": "java",
+      "target": "kotlin",
+      "weight": 51
+    },
+    {
+      "source": "java",
+      "target": "docker",
+      "weight": 18
+    },
+    {
+      "source": "jsp",
+      "target": "html",
+      "weight": 3
+    },
+    {
+      "source": "jsp",
+      "target": "mysql",
+      "weight": 4
+    },
+    {
+      "source": "jsp",
+      "target": "servlets",
+      "weight": 4
+    },
+    {
+      "source": "jsp",
+      "target": "spring",
+      "weight": 3
+    },
+    {
+      "source": "jsp",
+      "target": "eclipse",
+      "weight": 3
+    },
+    {
+      "source": "jsp",
+      "target": "spring-boot",
+      "weight": 3
+    },
+    {
+      "source": "spring-mvc",
+      "target": "hibernate",
+      "weight": 6
+    },
+    {
+      "source": "spring-mvc",
+      "target": "servlets",
+      "weight": 3
+    },
+    {
+      "source": "spring-mvc",
+      "target": "spring",
+      "weight": 28
+    },
+    {
+      "source": "spring-mvc",
+      "target": "spring-boot",
+      "weight": 15
+    },
+    {
+      "source": "spring-mvc",
+      "target": "thymeleaf",
+      "weight": 4
+    },
+    {
+      "source": "spring-mvc",
+      "target": "rest",
+      "weight": 3
+    },
+    {
+      "source": "list",
+      "target": "android",
+      "weight": 3
+    },
+    {
+      "source": "list",
+      "target": "arraylist",
+      "weight": 4
+    },
+    {
+      "source": "list",
+      "target": "java-stream",
+      "weight": 3
+    },
+    {
+      "source": "swing",
+      "target": "jframe",
+      "weight": 14
+    },
+    {
+      "source": "swing",
+      "target": "multithreading",
+      "weight": 3
+    },
+    {
+      "source": "swing",
+      "target": "netbeans",
+      "weight": 6
+    },
+    {
+      "source": "swing",
+      "target": "user-interface",
+      "weight": 11
+    },
+    {
+      "source": "swing",
+      "target": "image",
+      "weight": 6
+    },
+    {
+      "source": "android",
+      "target": "android-layout",
+      "weight": 18
+    },
+    {
+      "source": "android",
+      "target": "xml",
+      "weight": 20
+    },
+    {
+      "source": "android",
+      "target": "eclipse",
+      "weight": 7
+    },
+    {
+      "source": "android",
+      "target": "class",
+      "weight": 5
+    },
+    {
+      "source": "android",
+      "target": "android-studio",
+      "weight": 47
+    },
+    {
+      "source": "android",
+      "target": "android-fragments",
+      "weight": 23
+    },
+    {
+      "source": "android",
+      "target": "listview",
+      "weight": 17
+    },
+    {
+      "source": "android",
+      "target": "methods",
+      "weight": 3
+    },
+    {
+      "source": "android",
+      "target": "string",
+      "weight": 3
+    },
+    {
+      "source": "android",
+      "target": "arraylist",
+      "weight": 9
+    },
+    {
+      "source": "android",
+      "target": "android-recyclerview",
+      "weight": 22
+    },
+    {
+      "source": "android",
+      "target": "sqlite",
+      "weight": 9
+    },
+    {
+      "source": "android",
+      "target": "gradle",
+      "weight": 11
+    },
+    {
+      "source": "android",
+      "target": "multithreading",
+      "weight": 6
+    },
+    {
+      "source": "android",
+      "target": "arrays",
+      "weight": 5
+    },
+    {
+      "source": "android",
+      "target": "json",
+      "weight": 13
+    },
+    {
+      "source": "android",
+      "target": "firebase",
+      "weight": 39
+    },
+    {
+      "source": "android",
+      "target": "nullpointerexception",
+      "weight": 9
+    },
+    {
+      "source": "android",
+      "target": "firebase-realtime-database",
+      "weight": 17
+    },
+    {
+      "source": "android",
+      "target": "image",
+      "weight": 5
+    },
+    {
+      "source": "android",
+      "target": "kotlin",
+      "weight": 29
+    },
+    {
+      "source": "xml",
+      "target": "android-layout",
+      "weight": 7
+    },
+    {
+      "source": "xml",
+      "target": "android-studio",
+      "weight": 3
+    },
+    {
+      "source": "android-layout",
+      "target": "android-studio",
+      "weight": 3
+    },
+    {
+      "source": "jpa",
+      "target": "spring-boot",
+      "weight": 15
+    },
+    {
+      "source": "jpa",
+      "target": "hibernate",
+      "weight": 20
+    },
+    {
+      "source": "jpa",
+      "target": "mysql",
+      "weight": 3
+    },
+    {
+      "source": "jpa",
+      "target": "sql",
+      "weight": 3
+    },
+    {
+      "source": "jpa",
+      "target": "spring",
+      "weight": 13
+    },
+    {
+      "source": "jpa",
+      "target": "spring-data-jpa",
+      "weight": 15
+    },
+    {
+      "source": "jpa",
+      "target": "spring-data",
+      "weight": 3
+    },
+    {
+      "source": "spring-boot",
+      "target": "spring-security",
+      "weight": 15
+    },
+    {
+      "source": "spring-boot",
+      "target": "spring",
+      "weight": 93
+    },
+    {
+      "source": "spring-boot",
+      "target": "thymeleaf",
+      "weight": 11
+    },
+    {
+      "source": "spring-boot",
+      "target": "spring-data",
+      "weight": 7
+    },
+    {
+      "source": "spring-boot",
+      "target": "spring-data-jpa",
+      "weight": 20
+    },
+    {
+      "source": "spring-boot",
+      "target": "tomcat",
+      "weight": 6
+    },
+    {
+      "source": "spring-boot",
+      "target": "amazon-web-services",
+      "weight": 3
+    },
+    {
+      "source": "spring-boot",
+      "target": "rest",
+      "weight": 12
+    },
+    {
+      "source": "spring-boot",
+      "target": "hibernate",
+      "weight": 17
+    },
+    {
+      "source": "spring-boot",
+      "target": "junit",
+      "weight": 9
+    },
+    {
+      "source": "spring-boot",
+      "target": "mockito",
+      "weight": 6
+    },
+    {
+      "source": "spring-boot",
+      "target": "gradle",
+      "weight": 7
+    },
+    {
+      "source": "spring-boot",
+      "target": "mongodb",
+      "weight": 4
+    },
+    {
+      "source": "spring-boot",
+      "target": "multithreading",
+      "weight": 4
+    },
+    {
+      "source": "spring-boot",
+      "target": "docker",
+      "weight": 5
+    },
+    {
+      "source": "spring-boot",
+      "target": "maven",
+      "weight": 12
+    },
+    {
+      "source": "spring-boot",
+      "target": "jackson",
+      "weight": 3
+    },
+    {
+      "source": "spring-boot",
+      "target": "mysql",
+      "weight": 4
+    },
+    {
+      "source": "spring-boot",
+      "target": "logging",
+      "weight": 3
+    },
+    {
+      "source": "spring-boot",
+      "target": "html",
+      "weight": 4
+    },
+    {
+      "source": "spring-boot",
+      "target": "java-8",
+      "weight": 3
+    },
+    {
+      "source": "hibernate",
+      "target": "spring",
+      "weight": 21
+    },
+    {
+      "source": "hibernate",
+      "target": "mysql",
+      "weight": 7
+    },
+    {
+      "source": "hibernate",
+      "target": "spring-data-jpa",
+      "weight": 11
+    },
+    {
+      "source": "servlets",
+      "target": "tomcat",
+      "weight": 3
+    },
+    {
+      "source": "java-8",
+      "target": "java-stream",
+      "weight": 9
+    },
+    {
+      "source": "intellij-idea",
+      "target": "javafx",
+      "weight": 8
+    },
+    {
+      "source": "intellij-idea",
+      "target": "gradle",
+      "weight": 7
+    },
+    {
+      "source": "intellij-idea",
+      "target": "maven",
+      "weight": 8
+    },
+    {
+      "source": "javafx",
+      "target": "eclipse",
+      "weight": 3
+    },
+    {
+      "source": "javafx",
+      "target": "arraylist",
+      "weight": 3
+    },
+    {
+      "source": "javafx",
+      "target": "maven",
+      "weight": 4
+    },
+    {
+      "source": "spring",
+      "target": "maven",
+      "weight": 11
+    },
+    {
+      "source": "spring",
+      "target": "rest",
+      "weight": 8
+    },
+    {
+      "source": "spring",
+      "target": "spring-security",
+      "weight": 14
+    },
+    {
+      "source": "spring",
+      "target": "thymeleaf",
+      "weight": 9
+    },
+    {
+      "source": "spring",
+      "target": "spring-data",
+      "weight": 7
+    },
+    {
+      "source": "spring",
+      "target": "spring-data-jpa",
+      "weight": 18
+    },
+    {
+      "source": "spring",
+      "target": "json",
+      "weight": 5
+    },
+    {
+      "source": "spring",
+      "target": "mysql",
+      "weight": 8
+    },
+    {
+      "source": "spring",
+      "target": "tomcat",
+      "weight": 4
+    },
+    {
+      "source": "spring",
+      "target": "logging",
+      "weight": 6
+    },
+    {
+      "source": "spring",
+      "target": "html",
+      "weight": 3
+    },
+    {
+      "source": "spring",
+      "target": "docker",
+      "weight": 3
+    },
+    {
+      "source": "mongodb",
+      "target": "spring-data",
+      "weight": 4
+    },
+    {
+      "source": "mysql",
+      "target": "jdbc",
+      "weight": 5
+    },
+    {
+      "source": "mysql",
+      "target": "database",
+      "weight": 3
+    },
+    {
+      "source": "mysql",
+      "target": "sql",
+      "weight": 4
+    },
+    {
+      "source": "jdbc",
+      "target": "sql",
+      "weight": 5
+    },
+    {
+      "source": "jdbc",
+      "target": "database",
+      "weight": 4
+    },
+    {
+      "source": "eclipse",
+      "target": "tomcat",
+      "weight": 3
+    },
+    {
+      "source": "eclipse",
+      "target": "maven",
+      "weight": 5
+    },
+    {
+      "source": "android-studio",
+      "target": "gradle",
+      "weight": 3
+    },
+    {
+      "source": "android-studio",
+      "target": "android-fragments",
+      "weight": 4
+    },
+    {
+      "source": "android-studio",
+      "target": "kotlin",
+      "weight": 5
+    },
+    {
+      "source": "android-studio",
+      "target": "firebase",
+      "weight": 4
+    },
+    {
+      "source": "rest",
+      "target": "json",
+      "weight": 4
+    },
+    {
+      "source": "maven",
+      "target": "netbeans",
+      "weight": 3
+    },
+    {
+      "source": "maven",
+      "target": "junit",
+      "weight": 3
+    },
+    {
+      "source": "junit",
+      "target": "mockito",
+      "weight": 10
+    },
+    {
+      "source": "junit",
+      "target": "unit-testing",
+      "weight": 6
+    },
+    {
+      "source": "methods",
+      "target": "arrays",
+      "weight": 3
+    },
+    {
+      "source": "arrays",
+      "target": "json",
+      "weight": 5
+    },
+    {
+      "source": "arrays",
+      "target": "sorting",
+      "weight": 4
+    },
+    {
+      "source": "arrays",
+      "target": "algorithm",
+      "weight": 3
+    },
+    {
+      "source": "arrays",
+      "target": "arraylist",
+      "weight": 11
+    },
+    {
+      "source": "arrays",
+      "target": "string",
+      "weight": 5
+    },
+    {
+      "source": "sql",
+      "target": "sqlite",
+      "weight": 3
+    },
+    {
+      "source": "string",
+      "target": "regex",
+      "weight": 3
+    },
+    {
+      "source": "html",
+      "target": "selenium",
+      "weight": 3
+    },
+    {
+      "source": "html",
+      "target": "thymeleaf",
+      "weight": 4
+    },
+    {
+      "source": "unit-testing",
+      "target": "mockito",
+      "weight": 5
+    },
+    {
+      "source": "algorithm",
+      "target": "data-structures",
+      "weight": 7
+    },
+    {
+      "source": "json",
+      "target": "jackson",
+      "weight": 10
+    },
+    {
+      "source": "json",
+      "target": "kotlin",
+      "weight": 3
+    },
+    {
+      "source": "database",
+      "target": "sqlite",
+      "weight": 3
+    },
+    {
+      "source": "selenium",
+      "target": "selenium-webdriver",
+      "weight": 10
+    },
+    {
+      "source": "firebase",
+      "target": "firebase-realtime-database",
+      "weight": 15
+    },
+    {
+      "source": "spring-data",
+      "target": "spring-data-jpa",
+      "weight": 6
+    },
+    {
+      "source": "spring-data-jpa",
+      "target": "kotlin",
+      "weight": 3
+    }
+  ]
+}

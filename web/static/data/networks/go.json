@@ -1,0 +1,1261 @@
+{
+  "nodes": [
+    {
+      "id": "go",
+      "frequency": 2997,
+      "community": 3,
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.7932
+    },
+    {
+      "id": "mgo",
+      "frequency": 24,
+      "community": 1,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "html",
+      "frequency": 25,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "google-app-engine",
+      "frequency": 45,
+      "community": 2,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0019
+    },
+    {
+      "id": "c",
+      "frequency": 23,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0004
+    },
+    {
+      "id": "struct",
+      "frequency": 84,
+      "community": 3,
+      "degree_centrality": 0.1081,
+      "betweenness_centrality": 0.0316
+    },
+    {
+      "id": "mongodb",
+      "frequency": 72,
+      "community": 1,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0004
+    },
+    {
+      "id": "sql",
+      "frequency": 30,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "gorilla",
+      "frequency": 22,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "pointers",
+      "frequency": 44,
+      "community": 3,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.03
+    },
+    {
+      "id": "interface",
+      "frequency": 43,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0097
+    },
+    {
+      "id": "json",
+      "frequency": 125,
+      "community": 4,
+      "degree_centrality": 0.1622,
+      "betweenness_centrality": 0.1256
+    },
+    {
+      "id": "error-handling",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "goroutine",
+      "frequency": 74,
+      "community": 5,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0557
+    },
+    {
+      "id": "http",
+      "frequency": 76,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0015
+    },
+    {
+      "id": "linux",
+      "frequency": 24,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "cgo",
+      "frequency": 30,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "regex",
+      "frequency": 33,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "node.js",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "performance",
+      "frequency": 13,
+      "community": 5,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0155
+    },
+    {
+      "id": "rest",
+      "frequency": 21,
+      "community": 4,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "slice",
+      "frequency": 54,
+      "community": 3,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.0035
+    },
+    {
+      "id": "channel",
+      "frequency": 51,
+      "community": 5,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "type-conversion",
+      "frequency": 14,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0466
+    },
+    {
+      "id": "database",
+      "frequency": 20,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.1177
+    },
+    {
+      "id": "network-programming",
+      "frequency": 26,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0015
+    },
+    {
+      "id": "types",
+      "frequency": 23,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "memory",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0622
+    },
+    {
+      "id": "websocket",
+      "frequency": 22,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "windows",
+      "frequency": 21,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "postgresql",
+      "frequency": 52,
+      "community": 0,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.099
+    },
+    {
+      "id": "amazon-web-services",
+      "frequency": 37,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "sockets",
+      "frequency": 13,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0511
+    },
+    {
+      "id": "tcp",
+      "frequency": 18,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0285
+    },
+    {
+      "id": "python",
+      "frequency": 18,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "c++",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "docker",
+      "frequency": 69,
+      "community": 3,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0537
+    },
+    {
+      "id": "testing",
+      "frequency": 37,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "ssl",
+      "frequency": 17,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "logging",
+      "frequency": 14,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "dictionary",
+      "frequency": 25,
+      "community": 3,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0581
+    },
+    {
+      "id": "go-templates",
+      "frequency": 30,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "string",
+      "frequency": 52,
+      "community": 3,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.06
+    },
+    {
+      "id": "templates",
+      "frequency": 18,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.027
+    },
+    {
+      "id": "server",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "redis",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "concurrency",
+      "frequency": 48,
+      "community": 5,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0102
+    },
+    {
+      "id": "time",
+      "frequency": 13,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "reflection",
+      "frequency": 20,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "unmarshalling",
+      "frequency": 27,
+      "community": 4,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "loops",
+      "frequency": 13,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0389
+    },
+    {
+      "id": "mysql",
+      "frequency": 45,
+      "community": 0,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0905
+    },
+    {
+      "id": "arrays",
+      "frequency": 47,
+      "community": 3,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0413
+    },
+    {
+      "id": "xml",
+      "frequency": 26,
+      "community": 4,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.015
+    },
+    {
+      "id": "marshalling",
+      "frequency": 16,
+      "community": 4,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0381
+    },
+    {
+      "id": "algorithm",
+      "frequency": 18,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "go-gorm",
+      "frequency": 83,
+      "community": 0,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.0218
+    },
+    {
+      "id": "cryptography",
+      "frequency": 13,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "jwt",
+      "frequency": 15,
+      "community": 2,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.013
+    },
+    {
+      "id": "google-cloud-datastore",
+      "frequency": 13,
+      "community": 2,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0259
+    },
+    {
+      "id": "multithreading",
+      "frequency": 15,
+      "community": 5,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0783
+    },
+    {
+      "id": "javascript",
+      "frequency": 19,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "ssh",
+      "frequency": 13,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0255
+    },
+    {
+      "id": "grpc",
+      "frequency": 25,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "protocol-buffers",
+      "frequency": 25,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "google-cloud-platform",
+      "frequency": 33,
+      "community": 2,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "unit-testing",
+      "frequency": 20,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.027
+    },
+    {
+      "id": "go-gin",
+      "frequency": 36,
+      "community": 3,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0267
+    },
+    {
+      "id": "orm",
+      "frequency": 15,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0311
+    },
+    {
+      "id": "kubernetes",
+      "frequency": 39,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "firebase",
+      "frequency": 15,
+      "community": 2,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.013
+    },
+    {
+      "id": "visual-studio-code",
+      "frequency": 40,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "go-modules",
+      "frequency": 28,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "mongo-go",
+      "frequency": 13,
+      "community": 1,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0267
+    },
+    {
+      "id": "go-fiber",
+      "frequency": 14,
+      "community": 3,
+      "degree_centrality": 0.0135,
+      "betweenness_centrality": 0.0
+    }
+  ],
+  "links": [
+    {
+      "source": "go",
+      "target": "mgo",
+      "weight": 24
+    },
+    {
+      "source": "go",
+      "target": "html",
+      "weight": 25
+    },
+    {
+      "source": "go",
+      "target": "google-app-engine",
+      "weight": 45
+    },
+    {
+      "source": "go",
+      "target": "c",
+      "weight": 23
+    },
+    {
+      "source": "go",
+      "target": "struct",
+      "weight": 84
+    },
+    {
+      "source": "go",
+      "target": "mongodb",
+      "weight": 72
+    },
+    {
+      "source": "go",
+      "target": "gorilla",
+      "weight": 22
+    },
+    {
+      "source": "go",
+      "target": "sql",
+      "weight": 30
+    },
+    {
+      "source": "go",
+      "target": "pointers",
+      "weight": 44
+    },
+    {
+      "source": "go",
+      "target": "interface",
+      "weight": 43
+    },
+    {
+      "source": "go",
+      "target": "json",
+      "weight": 125
+    },
+    {
+      "source": "go",
+      "target": "error-handling",
+      "weight": 15
+    },
+    {
+      "source": "go",
+      "target": "goroutine",
+      "weight": 74
+    },
+    {
+      "source": "go",
+      "target": "http",
+      "weight": 76
+    },
+    {
+      "source": "go",
+      "target": "cgo",
+      "weight": 30
+    },
+    {
+      "source": "go",
+      "target": "linux",
+      "weight": 24
+    },
+    {
+      "source": "go",
+      "target": "regex",
+      "weight": 33
+    },
+    {
+      "source": "go",
+      "target": "node.js",
+      "weight": 15
+    },
+    {
+      "source": "go",
+      "target": "performance",
+      "weight": 13
+    },
+    {
+      "source": "go",
+      "target": "rest",
+      "weight": 21
+    },
+    {
+      "source": "go",
+      "target": "slice",
+      "weight": 54
+    },
+    {
+      "source": "go",
+      "target": "channel",
+      "weight": 51
+    },
+    {
+      "source": "go",
+      "target": "type-conversion",
+      "weight": 14
+    },
+    {
+      "source": "go",
+      "target": "database",
+      "weight": 20
+    },
+    {
+      "source": "go",
+      "target": "network-programming",
+      "weight": 26
+    },
+    {
+      "source": "go",
+      "target": "types",
+      "weight": 23
+    },
+    {
+      "source": "go",
+      "target": "memory",
+      "weight": 15
+    },
+    {
+      "source": "go",
+      "target": "websocket",
+      "weight": 22
+    },
+    {
+      "source": "go",
+      "target": "windows",
+      "weight": 21
+    },
+    {
+      "source": "go",
+      "target": "postgresql",
+      "weight": 52
+    },
+    {
+      "source": "go",
+      "target": "amazon-web-services",
+      "weight": 37
+    },
+    {
+      "source": "go",
+      "target": "sockets",
+      "weight": 13
+    },
+    {
+      "source": "go",
+      "target": "tcp",
+      "weight": 18
+    },
+    {
+      "source": "go",
+      "target": "python",
+      "weight": 18
+    },
+    {
+      "source": "go",
+      "target": "c++",
+      "weight": 15
+    },
+    {
+      "source": "go",
+      "target": "docker",
+      "weight": 69
+    },
+    {
+      "source": "go",
+      "target": "ssl",
+      "weight": 17
+    },
+    {
+      "source": "go",
+      "target": "testing",
+      "weight": 37
+    },
+    {
+      "source": "go",
+      "target": "logging",
+      "weight": 14
+    },
+    {
+      "source": "go",
+      "target": "dictionary",
+      "weight": 25
+    },
+    {
+      "source": "go",
+      "target": "go-templates",
+      "weight": 30
+    },
+    {
+      "source": "go",
+      "target": "string",
+      "weight": 52
+    },
+    {
+      "source": "go",
+      "target": "templates",
+      "weight": 18
+    },
+    {
+      "source": "go",
+      "target": "server",
+      "weight": 15
+    },
+    {
+      "source": "go",
+      "target": "redis",
+      "weight": 15
+    },
+    {
+      "source": "go",
+      "target": "concurrency",
+      "weight": 48
+    },
+    {
+      "source": "go",
+      "target": "time",
+      "weight": 13
+    },
+    {
+      "source": "go",
+      "target": "reflection",
+      "weight": 20
+    },
+    {
+      "source": "go",
+      "target": "unmarshalling",
+      "weight": 27
+    },
+    {
+      "source": "go",
+      "target": "loops",
+      "weight": 13
+    },
+    {
+      "source": "go",
+      "target": "mysql",
+      "weight": 45
+    },
+    {
+      "source": "go",
+      "target": "arrays",
+      "weight": 47
+    },
+    {
+      "source": "go",
+      "target": "marshalling",
+      "weight": 16
+    },
+    {
+      "source": "go",
+      "target": "xml",
+      "weight": 26
+    },
+    {
+      "source": "go",
+      "target": "algorithm",
+      "weight": 18
+    },
+    {
+      "source": "go",
+      "target": "go-gorm",
+      "weight": 83
+    },
+    {
+      "source": "go",
+      "target": "cryptography",
+      "weight": 13
+    },
+    {
+      "source": "go",
+      "target": "jwt",
+      "weight": 15
+    },
+    {
+      "source": "go",
+      "target": "google-cloud-datastore",
+      "weight": 13
+    },
+    {
+      "source": "go",
+      "target": "multithreading",
+      "weight": 15
+    },
+    {
+      "source": "go",
+      "target": "javascript",
+      "weight": 19
+    },
+    {
+      "source": "go",
+      "target": "ssh",
+      "weight": 13
+    },
+    {
+      "source": "go",
+      "target": "grpc",
+      "weight": 25
+    },
+    {
+      "source": "go",
+      "target": "protocol-buffers",
+      "weight": 25
+    },
+    {
+      "source": "go",
+      "target": "google-cloud-platform",
+      "weight": 33
+    },
+    {
+      "source": "go",
+      "target": "unit-testing",
+      "weight": 20
+    },
+    {
+      "source": "go",
+      "target": "go-gin",
+      "weight": 36
+    },
+    {
+      "source": "go",
+      "target": "orm",
+      "weight": 15
+    },
+    {
+      "source": "go",
+      "target": "kubernetes",
+      "weight": 39
+    },
+    {
+      "source": "go",
+      "target": "firebase",
+      "weight": 15
+    },
+    {
+      "source": "go",
+      "target": "visual-studio-code",
+      "weight": 40
+    },
+    {
+      "source": "go",
+      "target": "go-modules",
+      "weight": 28
+    },
+    {
+      "source": "go",
+      "target": "mongo-go",
+      "weight": 13
+    },
+    {
+      "source": "go",
+      "target": "go-fiber",
+      "weight": 14
+    },
+    {
+      "source": "mgo",
+      "target": "mongodb",
+      "weight": 17
+    },
+    {
+      "source": "google-app-engine",
+      "target": "google-cloud-datastore",
+      "weight": 9
+    },
+    {
+      "source": "google-app-engine",
+      "target": "jwt",
+      "weight": 3
+    },
+    {
+      "source": "google-app-engine",
+      "target": "google-cloud-platform",
+      "weight": 8
+    },
+    {
+      "source": "google-app-engine",
+      "target": "firebase",
+      "weight": 3
+    },
+    {
+      "source": "c",
+      "target": "linux",
+      "weight": 3
+    },
+    {
+      "source": "c",
+      "target": "cgo",
+      "weight": 9
+    },
+    {
+      "source": "struct",
+      "target": "pointers",
+      "weight": 8
+    },
+    {
+      "source": "struct",
+      "target": "json",
+      "weight": 18
+    },
+    {
+      "source": "struct",
+      "target": "xml",
+      "weight": 4
+    },
+    {
+      "source": "struct",
+      "target": "interface",
+      "weight": 3
+    },
+    {
+      "source": "struct",
+      "target": "slice",
+      "weight": 6
+    },
+    {
+      "source": "struct",
+      "target": "arrays",
+      "weight": 3
+    },
+    {
+      "source": "struct",
+      "target": "types",
+      "weight": 4
+    },
+    {
+      "source": "mongodb",
+      "target": "mongo-go",
+      "weight": 13
+    },
+    {
+      "source": "sql",
+      "target": "postgresql",
+      "weight": 9
+    },
+    {
+      "source": "sql",
+      "target": "mysql",
+      "weight": 6
+    },
+    {
+      "source": "sql",
+      "target": "json",
+      "weight": 4
+    },
+    {
+      "source": "gorilla",
+      "target": "websocket",
+      "weight": 7
+    },
+    {
+      "source": "pointers",
+      "target": "interface",
+      "weight": 5
+    },
+    {
+      "source": "pointers",
+      "target": "json",
+      "weight": 3
+    },
+    {
+      "source": "pointers",
+      "target": "slice",
+      "weight": 3
+    },
+    {
+      "source": "pointers",
+      "target": "dictionary",
+      "weight": 4
+    },
+    {
+      "source": "interface",
+      "target": "dictionary",
+      "weight": 3
+    },
+    {
+      "source": "json",
+      "target": "unmarshalling",
+      "weight": 16
+    },
+    {
+      "source": "json",
+      "target": "mysql",
+      "weight": 3
+    },
+    {
+      "source": "json",
+      "target": "arrays",
+      "weight": 11
+    },
+    {
+      "source": "json",
+      "target": "marshalling",
+      "weight": 11
+    },
+    {
+      "source": "json",
+      "target": "rest",
+      "weight": 5
+    },
+    {
+      "source": "json",
+      "target": "go-gorm",
+      "weight": 3
+    },
+    {
+      "source": "json",
+      "target": "slice",
+      "weight": 5
+    },
+    {
+      "source": "json",
+      "target": "string",
+      "weight": 3
+    },
+    {
+      "source": "goroutine",
+      "target": "channel",
+      "weight": 21
+    },
+    {
+      "source": "goroutine",
+      "target": "concurrency",
+      "weight": 13
+    },
+    {
+      "source": "goroutine",
+      "target": "multithreading",
+      "weight": 4
+    },
+    {
+      "source": "goroutine",
+      "target": "mysql",
+      "weight": 3
+    },
+    {
+      "source": "http",
+      "target": "server",
+      "weight": 6
+    },
+    {
+      "source": "http",
+      "target": "tcp",
+      "weight": 3
+    },
+    {
+      "source": "performance",
+      "target": "concurrency",
+      "weight": 3
+    },
+    {
+      "source": "slice",
+      "target": "string",
+      "weight": 7
+    },
+    {
+      "source": "slice",
+      "target": "arrays",
+      "weight": 9
+    },
+    {
+      "source": "slice",
+      "target": "dictionary",
+      "weight": 5
+    },
+    {
+      "source": "channel",
+      "target": "concurrency",
+      "weight": 9
+    },
+    {
+      "source": "channel",
+      "target": "multithreading",
+      "weight": 3
+    },
+    {
+      "source": "type-conversion",
+      "target": "string",
+      "weight": 4
+    },
+    {
+      "source": "database",
+      "target": "go-gorm",
+      "weight": 7
+    },
+    {
+      "source": "database",
+      "target": "postgresql",
+      "weight": 3
+    },
+    {
+      "source": "database",
+      "target": "mysql",
+      "weight": 3
+    },
+    {
+      "source": "network-programming",
+      "target": "tcp",
+      "weight": 4
+    },
+    {
+      "source": "network-programming",
+      "target": "ssh",
+      "weight": 3
+    },
+    {
+      "source": "memory",
+      "target": "dictionary",
+      "weight": 3
+    },
+    {
+      "source": "postgresql",
+      "target": "go-gorm",
+      "weight": 11
+    },
+    {
+      "source": "postgresql",
+      "target": "docker",
+      "weight": 3
+    },
+    {
+      "source": "postgresql",
+      "target": "grpc",
+      "weight": 3
+    },
+    {
+      "source": "postgresql",
+      "target": "protocol-buffers",
+      "weight": 3
+    },
+    {
+      "source": "amazon-web-services",
+      "target": "docker",
+      "weight": 3
+    },
+    {
+      "source": "sockets",
+      "target": "tcp",
+      "weight": 4
+    },
+    {
+      "source": "docker",
+      "target": "kubernetes",
+      "weight": 4
+    },
+    {
+      "source": "testing",
+      "target": "unit-testing",
+      "weight": 3
+    },
+    {
+      "source": "go-templates",
+      "target": "templates",
+      "weight": 6
+    },
+    {
+      "source": "string",
+      "target": "arrays",
+      "weight": 5
+    },
+    {
+      "source": "concurrency",
+      "target": "multithreading",
+      "weight": 5
+    },
+    {
+      "source": "unmarshalling",
+      "target": "marshalling",
+      "weight": 7
+    },
+    {
+      "source": "unmarshalling",
+      "target": "xml",
+      "weight": 4
+    },
+    {
+      "source": "loops",
+      "target": "arrays",
+      "weight": 3
+    },
+    {
+      "source": "mysql",
+      "target": "go-gorm",
+      "weight": 12
+    },
+    {
+      "source": "xml",
+      "target": "marshalling",
+      "weight": 3
+    },
+    {
+      "source": "go-gorm",
+      "target": "go-gin",
+      "weight": 5
+    },
+    {
+      "source": "go-gorm",
+      "target": "orm",
+      "weight": 10
+    },
+    {
+      "source": "google-cloud-datastore",
+      "target": "google-cloud-platform",
+      "weight": 3
+    },
+    {
+      "source": "grpc",
+      "target": "protocol-buffers",
+      "weight": 6
+    },
+    {
+      "source": "go-gin",
+      "target": "orm",
+      "weight": 3
+    }
+  ]
+}
