@@ -4,7 +4,219 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Stack Overflow 学習者つまづき分析</title>
+  <meta name="description" content="Stack Overflow 学習者つまづき分析プロジェクトの分析手法・データソース・作者情報。">
   <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="static/css/responsive.css">
+  <style>
+    .about-main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3rem 2rem 5rem;
+    }
+    .about-hero {
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .about-hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 900;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, var(--color-primary), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .about-hero p {
+      color: var(--color-text-muted);
+      font-size: 1.05rem;
+      line-height: 1.8;
+      max-width: 680px;
+    }
+    .about-section {
+      margin-bottom: 3rem;
+    }
+    .about-section h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .about-section p, .about-section li {
+      color: var(--color-text-muted);
+      line-height: 1.8;
+      font-size: 0.95rem;
+    }
+    .about-section ul {
+      padding-left: 1.5rem;
+    }
+    .about-section li {
+      margin-bottom: 0.75rem;
+    }
+    .about-section strong {
+      color: var(--color-text);
+    }
+
+    /* パイプライン図 */
+    .pipeline {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin: 1.5rem 0;
+    }
+    .pipeline-step {
+      display: flex;
+      gap: 1.25rem;
+      align-items: flex-start;
+      position: relative;
+    }
+    .pipeline-step:not(:last-child)::before {
+      content: '';
+      position: absolute;
+      left: 19px;
+      top: 38px;
+      width: 2px;
+      height: calc(100% + 0.5rem);
+      background: var(--color-border);
+    }
+    .pipeline-num {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: var(--color-surface);
+      border: 2px solid var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--color-primary);
+      flex-shrink: 0;
+      z-index: 1;
+    }
+    .pipeline-body {
+      padding: 0.5rem 0 1.5rem;
+    }
+    .pipeline-body h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+      color: var(--color-text);
+    }
+    .pipeline-body p {
+      font-size: 0.88rem;
+      color: var(--color-text-muted);
+      margin: 0;
+    }
+    .pipeline-body code {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      background: var(--color-surface);
+      padding: 0.1em 0.4em;
+      border-radius: 3px;
+      color: var(--color-primary);
+    }
+
+    /* テックスタック表 */
+    .tech-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin-top: 1rem;
+    }
+    .tech-table th {
+      text-align: left;
+      padding: 0.5rem 1rem;
+      border-bottom: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+      font-weight: 600;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .tech-table td {
+      padding: 0.6rem 1rem;
+      border-bottom: 1px solid rgba(42,45,62,0.5);
+      color: var(--color-text-muted);
+      vertical-align: top;
+    }
+    .tech-table td:first-child {
+      color: var(--color-text);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+
+    /* 作者カード */
+    .author-card {
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+      padding: 1.5rem;
+      background: var(--color-surface);
+      border-radius: 10px;
+      border: 1px solid var(--color-border);
+    }
+    .author-avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--color-primary), #a78bfa);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      flex-shrink: 0;
+    }
+    .author-info h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+    .author-info p {
+      margin: 0.2rem 0;
+      font-size: 0.88rem;
+    }
+    .author-links {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .author-link {
+      padding: 0.25rem 0.85rem;
+      border: 1px solid var(--color-border);
+      border-radius: 2rem;
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .author-link:hover {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    /* 免責事項 */
+    .disclaimer {
+      padding: 1rem 1.25rem;
+      background: rgba(79,142,247,0.06);
+      border: 1px solid rgba(79,142,247,0.2);
+      border-radius: 6px;
+      font-size: 0.84rem;
+      color: var(--color-text-muted);
+      line-height: 1.7;
+    }
+
+    @media (max-width: 768px) {
+      .author-card { flex-direction: column; }
+      .tech-table th:nth-child(3),
+      .tech-table td:nth-child(3) { display: none; }
+    }
+  </style>
 </head>
 <body>
 
@@ -18,65 +230,133 @@
 
   <main class="about-main">
 
-    <h1>About このプロジェクト</h1>
+    <div class="about-hero">
+      <h1>About このプロジェクト</h1>
+      <p>
+        Stack Overflow の質問12,000件とDeveloper Survey を組み合わせ、
+        「学習者がどこでつまづくか」を<strong style="color:var(--color-text)">マクロ・メゾ・ミクロの3層</strong>で定量分析したデータアナリストポートフォリオ第3作。
+        公的統計（第1作）・商業データ（第2作）に続き、テキスト＋メタデータの分析を扱う。
+      </p>
+    </div>
 
-    <section>
-      <h2>データソース</h2>
+    <!-- 分析パイプライン -->
+    <section class="about-section">
+      <h2>分析パイプライン</h2>
+      <div class="pipeline">
+        <div class="pipeline-step">
+          <div class="pipeline-num">1</div>
+          <div class="pipeline-body">
+            <h3>データ取得（Day 2–3）</h3>
+            <p>Stack Exchange API v2.3 でPython・JavaScript・Java・Go の質問を言語・年別に各300件取得（計12,000件）。<code>tenacity</code> によるバックオフ自動制御、<code>SQLite</code> キャッシュで再取得コストを抑制。</p>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-num">2</div>
+          <div class="pipeline-body">
+            <h3>前処理（Day 4）</h3>
+            <p>質問本文のHTML除去（<code>BeautifulSoup4</code>）→ NLTK英語ストップワード＋ドメイン固有語の除去 → <code>Parquet</code> 形式で保存。</p>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-num">3</div>
+          <div class="pipeline-body">
+            <h3>マクロ分析（Day 5）</h3>
+            <p>Developer Survey 2022–2024 の使用率・希望率を言語別に集計。質問の回答率10年推移も算出。<code>pandas + PyYAML</code> で設定外出し。</p>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-num">4</div>
+          <div class="pipeline-body">
+            <h3>メゾ分析（Day 6）</h3>
+            <p>タグ共起行列を構築し <code>networkx</code> でグラフ化 → <code>Louvain法</code>でコミュニティ検出 → 媒介中心性上位50ノードを抽出してD3.js用JSONを生成。</p>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-num">5</div>
+          <div class="pipeline-body">
+            <h3>ミクロ分析（Day 7–8）</h3>
+            <p>質問タイトル＋タグを <code>TF-IDF</code>（sklearn）でベクトル化 → <code>LSA（TruncatedSVD）</code>で50次元に削減 → <code>HDBSCAN</code>でクラスタリング（クラスタ数自動決定）。クラスタラベルはグローバルIDF（セントロイド方式）で上位語を選択。</p>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-num">6</div>
+          <div class="pipeline-body">
+            <h3>フロントエンド（Day 9–12）</h3>
+            <p>スクロールテリング型SPA。<code>Plotly.js</code> でトレンドグラフ・横棒グラフ、<code>D3.js v7</code> でforce-directed network。<code>IntersectionObserver</code> でスクロール連動アニメーション。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 利用技術 -->
+    <section class="about-section">
+      <h2>利用技術スタック</h2>
+      <table class="tech-table">
+        <thead>
+          <tr><th>ライブラリ</th><th>用途</th><th>バージョン</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Python</td><td>分析全般</td><td>3.13</td></tr>
+          <tr><td>pandas / pyarrow</td><td>データ処理・Parquet保存</td><td>2.x / 19.x</td></tr>
+          <tr><td>scikit-learn</td><td>TF-IDF・LSA（TruncatedSVD）</td><td>1.x</td></tr>
+          <tr><td>hdbscan</td><td>密度ベースクラスタリング</td><td>0.8.x</td></tr>
+          <tr><td>networkx</td><td>タグ共起グラフ・中心性計算</td><td>3.x</td></tr>
+          <tr><td>python-louvain</td><td>コミュニティ検出</td><td>0.16</td></tr>
+          <tr><td>nltk</td><td>英語ストップワード・トークナイズ</td><td>3.9.x</td></tr>
+          <tr><td>tenacity</td><td>API バックオフ制御</td><td>9.x</td></tr>
+          <tr><td>loguru</td><td>ロギング</td><td>0.7.x</td></tr>
+          <tr><td>Plotly.js</td><td>トレンドグラフ・横棒グラフ</td><td>2.35.2</td></tr>
+          <tr><td>D3.js</td><td>force-directed ネットワーク図</td><td>7.9.0</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- データソース -->
+    <section class="about-section">
+      <h2>データソースと利用規約</h2>
       <ul>
         <li>
           <strong>Stack Exchange API v2.3</strong><br>
           Stack Overflow の質問・タグデータを取得。
-          <a href="https://stackoverflow.com/legal/terms-of-service/public" target="_blank" rel="noopener">
-            Stack Exchange Network 利用規約
-          </a> に基づき、
-          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> で利用。
+          <a href="https://stackoverflow.com/legal/terms-of-service/public" target="_blank" rel="noopener">Stack Exchange Network 利用規約</a>
+          に基づき <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> で利用。
+          出典: Stack Overflow（<a href="https://stackoverflow.com" target="_blank" rel="noopener">stackoverflow.com</a>）
         </li>
         <li>
-          <strong>Stack Overflow Developer Survey</strong><br>
-          年次開発者調査データ。
-          <a href="https://insights.stackoverflow.com/survey" target="_blank" rel="noopener">
-            insights.stackoverflow.com/survey
-          </a> より取得。
+          <strong>Stack Overflow Developer Survey 2022–2024</strong><br>
+          年次開発者調査。
+          <a href="https://survey.stackoverflow.co/datasets" target="_blank" rel="noopener">survey.stackoverflow.co/datasets</a>
+          より取得。ODbL ライセンスで公開。
         </li>
       </ul>
+      <div class="disclaimer">
+        本サイトは学習・ポートフォリオ目的で作成しています。分析結果の正確性については可能な限り検証しましたが保証するものではありません。Stack Overflow および Stack Exchange は Stack Exchange Inc. の商標です。本プロジェクトは Stack Exchange Inc. とは無関係です。
+      </div>
     </section>
 
-    <section>
-      <h2>分析手法</h2>
-      <ul>
-        <li><strong>マクロ分析</strong>: 言語別タグの質問数推移（2015〜2024年）</li>
-        <li><strong>メゾ分析</strong>: タグ共起ネットワーク（networkx + Louvain法によるコミュニティ検出）</li>
-        <li><strong>ミクロ分析</strong>: 質問本文のトピッククラスタリング（TF-IDF + HDBSCAN）</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>利用技術</h2>
-      <p>Python / pandas / scikit-learn / networkx / NLTK / Plotly / D3.js</p>
-    </section>
-
-    <section>
-      <h2>免責事項</h2>
-      <p>
-        本サイトは学習・ポートフォリオ目的で作成されています。
-        データの正確性については可能な限り検証していますが、保証するものではありません。
-        Stack Overflow / Stack Exchange は Stack Exchange Inc. の商標です。
-      </p>
-    </section>
-
-    <section>
+    <!-- 作者 -->
+    <section class="about-section">
       <h2>作者</h2>
-      <p>
-        中江 哲夫（Tetsu Nakae）<br>
-        データアナリスト・マーケティングプランナー<br>
-        <a href="https://github.com/tetsuN-0320" target="_blank" rel="noopener">GitHub</a>
-      </p>
+      <div class="author-card">
+        <div class="author-avatar">👤</div>
+        <div class="author-info">
+          <h3>中江 哲夫（Tetsu Nakae）</h3>
+          <p style="color:var(--color-primary);font-weight:600;">データアナリスト・マーケティングプランナー</p>
+          <p>慶應義塾大学法学部卒。電通ヤング＆ルビカムにてブランドリサーチ・ディレクターとして25年以上のマーケティング実務を経験後、データサイエンスを独習。Python エンジニア認定（基礎・データ分析）、Google Data Analytics プロフェッショナル認定取得。</p>
+          <p>本プロジェクトは「公的データ」「商業データ」「テキスト＋メタデータ」を扱うポートフォリオ3部作の第3作。</p>
+          <div class="author-links">
+            <a href="https://github.com/tetsuN-0320" target="_blank" rel="noopener" class="author-link">GitHub</a>
+            <a href="https://github.com/tetsuN-0320/stackoverflow-learner-pitfalls" target="_blank" rel="noopener" class="author-link">このプロジェクトのコード</a>
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
 
   <footer class="site-footer">
     <p>データ: CC BY-SA 4.0（Stack Exchange Network より） | コード: MIT License</p>
+    <p><a href="index.html">← トップへ戻る</a></p>
   </footer>
 
 </body>
