@@ -210,9 +210,10 @@ const Charts = (() => {
     const el = document.getElementById(containerId);
     if (!el) return;
 
-    // 降順ソート済みデータを取得し、Plotly の下→上描画に合わせて逆順にする
-    const clusters = (data[lang] || []).slice(0, 15).reverse();
+    const clusters = (data[lang] || []).slice(0, 15);
     if (!clusters.length) return;
+    // Plotly h-bar は y[0] が下→上なので、降順表示のため逆順コピーを使う
+    const displayClusters = [...clusters].reverse();
 
     const LANG_COLORS = {
       python: '#3776AB', javascript: '#F7DF1E', java: '#ED8B00', go: '#00ADD8',
@@ -220,9 +221,9 @@ const Charts = (() => {
     const baseColor = LANG_COLORS[lang] || '#4f8ef7';
 
     // 回答率が低いほど不透明（暗く）= 解決困難を視覚化
-    const labels   = clusters.map(c => _cleanLabel(c.label));
-    const sizes    = clusters.map(c => c.size);
-    const rates    = clusters.map(c => c.answer_rate);
+    const labels   = displayClusters.map(c => _cleanLabel(c.label));
+    const sizes    = displayClusters.map(c => c.size);
+    const rates    = displayClusters.map(c => c.answer_rate);
     // 回答率の逆数でアルファ値を計算（低回答率ほど色が濃い）
     const alphas   = rates.map(r => 0.45 + (1 - r) * 0.55);
     const colors   = alphas.map(a => {
