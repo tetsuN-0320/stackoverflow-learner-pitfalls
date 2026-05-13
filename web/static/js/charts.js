@@ -180,43 +180,77 @@ const Charts = (() => {
     renderComplexityChart('chart-complexity-el', data);
   }
 
+  // ─── ラベル整形ヘルパー ──────────────────────────────────────
+  const LABEL_MAP = {
+    django: 'Django', flask: 'Flask', numpy: 'NumPy', pandas: 'pandas',
+    tensorflow: 'TensorFlow', keras: 'Keras', selenium: 'Selenium',
+    tkinter: 'tkinter (GUI)', sqlalchemy: 'SQLAlchemy',
+    python_3: 'Python 3 / ファイル操作', pip: 'pip / 環境構築',
+    reactjs: 'React.js', ecmascript_6: 'ES6 / モジュール',
+    html: 'HTML / DOM', node: 'Node.js / Express', css: 'CSS / スタイル',
+    jquery: 'jQuery', angularjs: 'Angular', vue: 'Vue.js',
+    android: 'Android', spring: 'Spring / Boot', swing: 'Swing (GUI)',
+    maven: 'Maven / ビルド', javafx: 'JavaFX', firebase: 'Firebase',
+    apache: 'Apache Spark / Kafka', multithreading: 'マルチスレッド',
+    goroutine: 'goroutine / 並行処理', http: 'HTTP / ネットワーク',
+    json: 'JSON / シリアライズ', slice: 'スライス / ループ',
+    template: 'HTML テンプレート', mongodb: 'MongoDB', go_gorm: 'GORM (ORM)',
+    docker: 'Docker / コンテナ', struct: '構造体 (struct)',
+  };
+
+  function _cleanLabel(raw) {
+    const first = raw.split(' / ')[0].trim().toLowerCase();
+    if (LABEL_MAP[first]) return LABEL_MAP[first];
+    return first.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  }
+
   // ─── 第3幕: つまづきパターン横棒グラフ ───────────────────────
   function renderPitfalls(containerId, data, lang = 'python') {
     if (!data || typeof Plotly === 'undefined') return;
     const el = document.getElementById(containerId);
     if (!el) return;
 
-    const clusters = (data[lang] || []).slice(0, 20);
+    const clusters = (data[lang] || []).slice(0, 15);
     if (!clusters.length) return;
-
-    // サイズ降順で並んでいるので上位20件をそのまま使う（表示は下から大きい順）
-    const labels = clusters.map(c => c.label.split(' / ')[0]);
-    const sizes  = clusters.map(c => c.size);
-    const rates  = clusters.map(c => Math.round(c.answer_rate * 100));
 
     const LANG_COLORS = {
       python: '#3776AB', javascript: '#F7DF1E', java: '#ED8B00', go: '#00ADD8',
     };
-    const barColor = LANG_COLORS[lang] || '#4f8ef7';
+    const baseColor = LANG_COLORS[lang] || '#4f8ef7';
+
+    // 回答率が低いほど不透明（暗く）= 解決困難を視覚化
+    const labels   = clusters.map(c => _cleanLabel(c.label));
+    const sizes    = clusters.map(c => c.size);
+    const rates    = clusters.map(c => c.answer_rate);
+    // 回答率の逆数でアルファ値を計算（低回答率ほど色が濃い）
+    const alphas   = rates.map(r => 0.45 + (1 - r) * 0.55);
+    const colors   = alphas.map(a => {
+      const hex = Math.round(a * 255).toString(16).padStart(2, '0');
+      return baseColor + hex;
+    });
 
     const traces = [{
       type: 'bar',
       orientation: 'h',
       x: sizes,
       y: labels,
-      marker: {
-        color: sizes.map((_, i) => i === 0 ? barColor : barColor + 'aa'),
-        line: { width: 0 },
-      },
-      text: rates.map(r => `${r}% 回答`),
+      marker: { color: colors, line: { width: 0 } },
+      text: rates.map(r => `回答率 ${Math.round(r * 100)}%`),
       textposition: 'outside',
-      textfont: { color: '#8b8fa8', size: 11 },
-      hovertemplate: '<b>%{y}</b><br>件数: %{x}<extra></extra>',
+      textfont: { color: '#8b8fa8', size: 10 },
+      hovertemplate:
+        '<b>%{y}</b><br>' +
+        '質問数: %{x}件<br>' +
+        '%{text}<extra></extra>',
     }];
+
+    const LANG_NAMES = {
+      python: 'Python', javascript: 'JavaScript', java: 'Java', go: 'Go',
+    };
 
     const layout = Object.assign({}, DARK, {
       title: {
-        text: `${lang.charAt(0).toUpperCase() + lang.slice(1)} 学習者のつまづきトップ20`,
+        text: `${LANG_NAMES[lang] || lang} 学習者のつまづきトップ ${clusters.length}`,
         font: { size: 13, color: '#8b8fa8' },
         x: 0.02,
         xanchor: 'left',
@@ -228,18 +262,40 @@ const Charts = (() => {
         automargin: true,
         tickfont: { size: 11 },
       }),
-      margin: { t: 50, b: 50, l: 220, r: 80 },
-      height: Math.max(400, clusters.length * 26 + 100),
+      margin: { t: 50, b: 60, l: 200, r: 100 },
+      height: Math.max(420, clusters.length * 28 + 120),
+      annotations: [{
+        x: 0.99, y: -0.12,
+        xref: 'paper', yref: 'paper',
+        text: '棒の濃さ = 回答率の低さ（濃いほど解決困難）',
+        showarrow: false,
+        xanchor: 'right',
+        font: { color: '#8b8fa8', size: 10 },
+      }],
     });
 
     Plotly.newPlot(el, traces, layout, PLOTLY_CONFIG);
+
+    // サマリー更新
+    _updatePitfallSummary(lang, clusters);
+  }
+
+  function _updatePitfallSummary(lang, clusters) {
+    const el = document.getElementById('pitfall-summary');
+    if (!el || !clusters.length) return;
+    const top = clusters[0];
+    const hardest = [...clusters].sort((a, b) => a.answer_rate - b.answer_rate)[0];
+    el.innerHTML =
+      `<p class="summary-line">最多: <strong>${_cleanLabel(top.label)}</strong>（${top.size}件）</p>` +
+      `<p class="summary-line">最難: <strong>${_cleanLabel(hardest.label)}</strong>` +
+      `（回答率 ${Math.round(hardest.answer_rate * 100)}%）</p>`;
   }
 
   // ─── 公開インターフェース ─────────────────────────────────────
   return { loadTrends, loadPitfalls, renderTrend, renderPitfalls };
 })();
 
-// ─── DOMContentLoaded: 第1幕チャート初期化 ──────────────────────
+// ─── DOMContentLoaded: 各幕チャート初期化 ───────────────────────
 document.addEventListener('DOMContentLoaded', async () => {
 
   // 第1幕: トレンドチャート
@@ -248,22 +304,35 @@ document.addEventListener('DOMContentLoaded', async () => {
     Charts.renderTrend('chart-trend', trendsData);
   }
 
-  // トグルボタン（Developer Survey ↔ 回答率トレンド）
+  // 第1幕: トグルボタン（Developer Survey ↔ 回答率トレンド）
   const toggleBtns = document.querySelectorAll('#trend-toggle .toggle-btn');
   toggleBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       toggleBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-
       const view = btn.dataset.view;
       document.getElementById('chart-survey-el').style.display =
         view === 'survey' ? 'block' : 'none';
       document.getElementById('chart-complexity-el').style.display =
         view === 'complexity' ? 'block' : 'none';
-
-      // display 変更後にリサイズを通知して Plotly を再描画させる
       window.dispatchEvent(new Event('resize'));
     });
   });
+
+  // 第3幕: つまづきランキング（初期 Python）
+  const pitfallsData = await Charts.loadPitfalls();
+  if (pitfallsData) {
+    Charts.renderPitfalls('chart-pitfalls-el', pitfallsData, 'python');
+
+    // 言語タブ切替
+    document.querySelectorAll('#pitfall-tabs .tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('#pitfall-tabs .tab')
+          .forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        Charts.renderPitfalls('chart-pitfalls-el', pitfallsData, tab.dataset.lang);
+      });
+    });
+  }
 
 });

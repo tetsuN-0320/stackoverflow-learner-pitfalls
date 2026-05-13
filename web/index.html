@@ -25,6 +25,11 @@
     <section class="hero">
       <h1>学習者は<br>どこでつまづくのか</h1>
       <p class="hero-sub">Stack Overflow 1,000万件超の質問データが語る、IT学習の現実</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><span class="hero-num">12,000+</span><span>分析対象の質問</span></div>
+        <div class="hero-stat"><span class="hero-num">4</span><span>主要プログラミング言語</span></div>
+        <div class="hero-stat"><span class="hero-num">80+</span><span>つまづきパターン</span></div>
+      </div>
       <span class="scroll-hint">↓ スクロールして読む</span>
     </section>
 
@@ -35,7 +40,8 @@
         <h2>言語の地殻変動</h2>
         <p class="act-body">
           過去10年で、プログラマーが最も悩んだ言語はどう変わったのか。
-          Stack Overflow への質問数は、学習需要の実態を映す鏡だ。
+          Stack Overflow Developer Survey のデータが示す使用率の変化と、
+          質問の回答率が年々下がり続ける「難化」の現実。
         </p>
         <div class="chart-toggle" id="trend-toggle">
           <button class="toggle-btn active" data-view="survey">開発者調査（使用率）</button>
@@ -55,7 +61,8 @@
         <h2>言語別つまづきマップ</h2>
         <p class="act-body">
           タグの共起ネットワークが示す「学習の地形図」。
-          中心に位置するほど多くの学習者が通過するタグだ。
+          ノードが大きいほど質問数が多く、色はコミュニティ（学習領域）を表す。
+          中心のハブほど多くの学習者が通過する必修タグだ。
         </p>
         <div class="language-tabs" id="language-tabs">
           <button class="tab active" data-lang="python">Python</button>
@@ -63,49 +70,137 @@
           <button class="tab" data-lang="java">Java</button>
           <button class="tab" data-lang="go">Go</button>
         </div>
+        <p class="act-hint">ノードをドラッグ・ホバーで詳細表示 ／ スクロールで拡大縮小</p>
       </div>
-      <div class="act-chart" id="chart-network">
-        <!-- D3.js force-directed graph -->
-        <div class="chart-placeholder">ネットワーク図（分析データ生成後に表示）</div>
-      </div>
+      <div class="act-chart" id="chart-network"></div>
     </section>
 
-    <!-- 第3幕: Pythonの罠トップ20 -->
+    <!-- 第3幕: 言語別つまづきランキング -->
     <section class="act" id="act3" data-act="3">
       <div class="act-sticky">
         <div class="act-label">第3幕</div>
-        <h2>Pythonの罠 トップ20</h2>
+        <h2>言語別<br>つまづきランキング</h2>
         <p class="act-body">
-          Python学習者が最も頻繁に直面する問題カテゴリ。
-          テキストマイニングで質問本文を解析し、パターンを抽出した。
+          質問タイトルをTF-IDF＋HDBSCANでクラスタリングし、
+          「どの技術領域でどれだけ詰まるか」を定量化した。
+          棒の長さは質問数、色の濃さは回答率の低さ（暗いほど解決困難）を示す。
         </p>
+        <div class="language-tabs" id="pitfall-tabs">
+          <button class="tab active" data-lang="python">Python</button>
+          <button class="tab" data-lang="javascript">JavaScript</button>
+          <button class="tab" data-lang="java">Java</button>
+          <button class="tab" data-lang="go">Go</button>
+        </div>
+        <div id="pitfall-summary" class="pitfall-summary"></div>
       </div>
       <div class="act-chart" id="chart-pitfalls">
-        <!-- Plotly 横棒グラフ -->
-        <div class="chart-placeholder">つまづきランキング（分析データ生成後に表示）</div>
+        <div id="chart-pitfalls-el" class="plotly-chart plotly-chart-tall"></div>
       </div>
     </section>
 
     <!-- 第4幕: 学習ロードマップへの示唆 -->
-    <section class="act" id="act4" data-act="4">
-      <div class="act-sticky">
+    <section class="act act-wide" id="act4" data-act="4">
+      <div class="act-content-full">
         <div class="act-label">第4幕</div>
-        <h2>学習ロードマップへの示唆</h2>
-        <p class="act-body">
-          データが示す3つの提言。
+        <h2>データが語る、学習ロードマップへの示唆</h2>
+        <p class="act-body act-body-wide">
+          80以上のつまづきパターンと10年分の傾向データが導く、4つの提言。
         </p>
         <div class="insights" id="insights">
-          <!-- build_site.py 実行後にコンテンツを挿入 -->
-          <div class="insight-placeholder">分析完了後に提言を掲載</div>
+
+          <div class="insight-card">
+            <div class="insight-icon">🏗️</div>
+            <div class="insight-content">
+              <h3>環境構築こそ最初の難関</h3>
+              <p>
+                pip / conda / anaconda に関する質問は<strong>回答率60%</strong>と全パターン中最低水準。
+                「コードを書く前に詰まる」学習者が多い。
+                仮想環境・パスの仕組みを最初に丁寧に理解することが、その後の挫折を防ぐ。
+              </p>
+              <div class="insight-data">
+                <span class="insight-tag">pip</span>
+                <span class="insight-tag">conda</span>
+                <span class="insight-tag">anaconda</span>
+                <span class="insight-badge bad">回答率 60%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="insight-card">
+            <div class="insight-icon">🕸️</div>
+            <div class="insight-content">
+              <h3>Webフレームワークは「基礎の後」に</h3>
+              <p>
+                Python学習者のつまづき第1位は<strong>Django（162件）</strong>。
+                回答率67%で解決困難な質問も多い。
+                フレームワークに入る前に HTTP・データベース・ORM の基礎を押さえることが、
+                回り道のようで最短ルートになる。
+              </p>
+              <div class="insight-data">
+                <span class="insight-tag">Django</span>
+                <span class="insight-tag">Flask</span>
+                <span class="insight-tag">SQLAlchemy</span>
+                <span class="insight-badge warn">回答率 67–70%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="insight-card">
+            <div class="insight-icon">🤖</div>
+            <div class="insight-content">
+              <h3>ML入門者が見落とす「前提の前提」</h3>
+              <p>
+                TensorFlow / Keras の質問が<strong>76件・回答率66%</strong>と高難度クラスタに位置する。
+                MLライブラリを使う前に、NumPy配列操作（85件）・pandas DataFrame操作（66件）を
+                確実に身につけることが重要。ライブラリの習得順序が学習効率を大きく左右する。
+              </p>
+              <div class="insight-data">
+                <span class="insight-tag">NumPy</span>
+                <span class="insight-tag">pandas</span>
+                <span class="insight-tag">TensorFlow</span>
+                <span class="insight-tag">Keras</span>
+                <span class="insight-badge warn">回答率 66–77%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="insight-card">
+            <div class="insight-icon">🚀</div>
+            <div class="insight-content">
+              <h3>Go は「並行性ショック」を乗り越えると強い</h3>
+              <p>
+                Go学習者の最大のつまづきは<strong>goroutine / channel（137件・回答率80%）</strong>。
+                他言語の並行処理と根本的に異なるため、初学者が戸惑いやすい。
+                しかし回答率80%は全言語中でも高水準で、コミュニティの知見が蓄積されている。
+                構造体（struct）・JSON・HTTPと並んで、早期に習得すべきコア概念だ。
+              </p>
+              <div class="insight-data">
+                <span class="insight-tag">goroutine</span>
+                <span class="insight-tag">channel</span>
+                <span class="insight-tag">concurrency</span>
+                <span class="insight-badge good">回答率 80%</span>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /insights -->
+
+        <div class="act4-footer">
+          <p>
+            分析対象: Stack Overflow 質問データ 12,000件（Python・JavaScript・Java・Go、2015–2024年）<br>
+            手法: TF-IDF ベクトル化 → LSA 次元削減 → HDBSCAN クラスタリング → クラスタセントロイドによるラベル抽出
+          </p>
+          <a href="about.html" class="btn-outline">分析手法の詳細 →</a>
         </div>
+
       </div>
     </section>
 
   </main>
 
   <footer class="site-footer">
-    <p>データソース: Stack Exchange API v2.3 / Stack Overflow Developer Survey</p>
-    <p>CC BY-SA 4.0 | <a href="about.html">詳細・免責事項</a></p>
+    <p>データソース: Stack Exchange API v2.3 / Stack Overflow Developer Survey（CC BY-SA 4.0）</p>
+    <p>分析・実装: <a href="about.html">Tetsu Nakae</a> | <a href="about.html">免責事項・データ利用について</a></p>
   </footer>
 
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>

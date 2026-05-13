@@ -20,11 +20,29 @@
     font-size: 2.2rem;
   }
 
+  .hero-stats {
+    gap: var(--spacing-md);
+  }
+
   .language-tabs {
     flex-wrap: wrap;
   }
 
   .site-header nav {
+    gap: var(--spacing-sm);
+  }
+
+  /* 第4幕: モバイルは1列 */
+  .insights {
+    grid-template-columns: 1fr;
+  }
+
+  .act-content-full {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .insight-card {
+    flex-direction: column;
     gap: var(--spacing-sm);
   }
 }
