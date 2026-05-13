@@ -90,6 +90,9 @@
   width: 100%;
   min-height: 560px;
   align-self: stretch;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
 }
 
 /* スクロールで章が入ってくるアニメーション */
