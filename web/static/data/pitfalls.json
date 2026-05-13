@@ -1,0 +1,2250 @@
+{
+  "python": [
+    {
+      "cluster_id": 24,
+      "label": "django / django python / django_models / django django_models / form",
+      "size": 162,
+      "median_score": 1.0,
+      "median_views": 408.0,
+      "answer_rate": 0.673,
+      "examples": [
+        {
+          "question_id": 27729487,
+          "title": "how to catch A 'UNIQUE constraint failed' 404 in django",
+          "score": 50,
+          "view_count": 43501
+        },
+        {
+          "question_id": 34548768,
+          "title": "\"no such table\" exception",
+          "score": 44,
+          "view_count": 152732
+        },
+        {
+          "question_id": 34558397,
+          "title": "What's the purpose of Django \"deconstruct\" model field function?",
+          "score": 17,
+          "view_count": 4073
+        }
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "label": "character / google / binary / character python / search",
+      "size": 96,
+      "median_score": 0.0,
+      "median_views": 434.5,
+      "answer_rate": 0.771,
+      "examples": [
+        {
+          "question_id": 53990893,
+          "title": "When is a class variable initialized in Python?",
+          "score": 20,
+          "view_count": 9429
+        },
+        {
+          "question_id": 34559663,
+          "title": "Convert decimal to ternary(base3) in python",
+          "score": 12,
+          "view_count": 47762
+        },
+        {
+          "question_id": 27733431,
+          "title": "Finding an average but ignoring any zero in a list [Python]",
+          "score": 11,
+          "view_count": 55964
+        }
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "label": "numpy / array / arrays / array python / arrays numpy",
+      "size": 85,
+      "median_score": 1.0,
+      "median_views": 448.0,
+      "answer_rate": 0.765,
+      "examples": [
+        {
+          "question_id": 48049557,
+          "title": "how to write .npy file to s3 directly?",
+          "score": 13,
+          "view_count": 11975
+        },
+        {
+          "question_id": 53991131,
+          "title": "How to split data frame into x and y",
+          "score": 13,
+          "view_count": 41627
+        },
+        {
+          "question_id": 65523909,
+          "title": "What features of xgboost are affected by seed (random_state)?",
+          "score": 11,
+          "view_count": 16429
+        }
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "label": "tensorflow / keras / tensorflow keras / model / tensorflow python",
+      "size": 76,
+      "median_score": 0.0,
+      "median_views": 628.0,
+      "answer_rate": 0.658,
+      "examples": [
+        {
+          "question_id": 70544129,
+          "title": "TRANSFORMERS: Asking to pad but the tokenizer does not have a padding token",
+          "score": 23,
+          "view_count": 55741
+        },
+        {
+          "question_id": 41414489,
+          "title": "How to uninstall Keras?",
+          "score": 22,
+          "view_count": 71192
+        },
+        {
+          "question_id": 48046504,
+          "title": "Tensorflow LinearRegressor Feature Cannot have rank 0",
+          "score": 10,
+          "view_count": 4947
+        }
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "label": "python_3 / path / filter / os / lambda",
+      "size": 75,
+      "median_score": 0.0,
+      "median_views": 370.0,
+      "answer_rate": 0.76,
+      "examples": [
+        {
+          "question_id": 41413998,
+          "title": "How to differentiate a file like object from a file path like object",
+          "score": 27,
+          "view_count": 11451
+        },
+        {
+          "question_id": 53993334,
+          "title": "Converting a Python function with a callback to an asyncio awaitable",
+          "score": 23,
+          "view_count": 10535
+        },
+        {
+          "question_id": 53992606,
+          "title": "Plotly - different color surfaces",
+          "score": 11,
+          "view_count": 12938
+        }
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "label": "flask / sqlalchemy / flask python / flask sqlalchemy / html",
+      "size": 73,
+      "median_score": 1.0,
+      "median_views": 598.0,
+      "answer_rate": 0.699,
+      "examples": [
+        {
+          "question_id": 34548846,
+          "title": "flask-bcrypt - ValueError: Invalid salt",
+          "score": 29,
+          "view_count": 51829
+        },
+        {
+          "question_id": 27723287,
+          "title": "Reload python flask server by function",
+          "score": 15,
+          "view_count": 32155
+        },
+        {
+          "question_id": 41412159,
+          "title": "Bootstrap with Flask",
+          "score": 12,
+          "view_count": 24530
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "label": "tkinter / tkinter python / python_3 tkinter / window / canvas",
+      "size": 71,
+      "median_score": 0.0,
+      "median_views": 414.0,
+      "answer_rate": 0.62,
+      "examples": [
+        {
+          "question_id": 48045401,
+          "title": "Why are multiple instances of Tk discouraged?",
+          "score": 19,
+          "view_count": 6985
+        },
+        {
+          "question_id": 27730509,
+          "title": "How to change the tab of ttk.Notebook",
+          "score": 12,
+          "view_count": 17823
+        },
+        {
+          "question_id": 77740852,
+          "title": "Retrieving the current font definition of a tkinter.ttk.Label widget",
+          "score": 4,
+          "view_count": 724
+        }
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "label": "dataframe / pandas / pandas dataframe / dataframe python / column",
+      "size": 66,
+      "median_score": 1.0,
+      "median_views": 176.0,
+      "answer_rate": 0.803,
+      "examples": [
+        {
+          "question_id": 27738398,
+          "title": "simple pivot table of pandas dataframe",
+          "score": 9,
+          "view_count": 10215
+        },
+        {
+          "question_id": 53993556,
+          "title": "Python:Pandas - Object to string type conversion in dataframe",
+          "score": 6,
+          "view_count": 62009
+        },
+        {
+          "question_id": 59545838,
+          "title": "Write large pandas dataframe as parquet with pyarrow",
+          "score": 4,
+          "view_count": 4562
+        }
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "label": "selenium / selenium_webdriver / selenium selenium_webdriver / selenium python / element",
+      "size": 61,
+      "median_score": 1.0,
+      "median_views": 650.0,
+      "answer_rate": 0.721,
+      "examples": [
+        {
+          "question_id": 48045073,
+          "title": "Using a http proxy with headless firefox in Selenium webdriver in Python",
+          "score": 18,
+          "view_count": 4416
+        },
+        {
+          "question_id": 27737333,
+          "title": "Expected conditions in protractor",
+          "score": 12,
+          "view_count": 16035
+        },
+        {
+          "question_id": 53989420,
+          "title": "Issue clicking Javascript button with python/Selenium",
+          "score": 5,
+          "view_count": 974
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "label": "pip / install / anaconda / pip install / conda",
+      "size": 55,
+      "median_score": 1.0,
+      "median_views": 1137.0,
+      "answer_rate": 0.6,
+      "examples": [
+        {
+          "question_id": 27734053,
+          "title": "How to `pip install` a package that has non-Python dependencies?",
+          "score": 38,
+          "view_count": 6533
+        },
+        {
+          "question_id": 53995171,
+          "title": "anaconda conda: error: argument command: invalid choice when trying to update packages",
+          "score": 24,
+          "view_count": 87551
+        },
+        {
+          "question_id": 41409570,
+          "title": "Can't install wordcloud in python (Anaconda)",
+          "score": 5,
+          "view_count": 48438
+        }
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "label": "scrapy / script / raspberry_pi / pi / raspberry",
+      "size": 55,
+      "median_score": 0.0,
+      "median_views": 572.0,
+      "answer_rate": 0.582,
+      "examples": [
+        {
+          "question_id": 27736162,
+          "title": "Scrapy download_delay vs. max_concurrent_requests_per_domain",
+          "score": 8,
+          "view_count": 2021
+        },
+        {
+          "question_id": 34557807,
+          "title": "Crawl non-latin domain with scrapy",
+          "score": 3,
+          "view_count": 564
+        },
+        {
+          "question_id": 53991359,
+          "title": "Python script to warm AWS lambda for cold start problem",
+          "score": 3,
+          "view_count": 1523
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "label": "loop / loop python / numbers / loops / for_loop",
+      "size": 51,
+      "median_score": 0.0,
+      "median_views": 159.0,
+      "answer_rate": 0.824,
+      "examples": [
+        {
+          "question_id": 27726184,
+          "title": "most efficient way find the greatest common factor of 3 numbers?",
+          "score": 4,
+          "view_count": 2942
+        },
+        {
+          "question_id": 27735409,
+          "title": "Python Itertools permutations only letters and numbers",
+          "score": 4,
+          "view_count": 3259
+        },
+        {
+          "question_id": 41409577,
+          "title": "Using for loop iterator for if condition",
+          "score": 3,
+          "view_count": 501
+        }
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "label": "pandas / pandas python / row / series / row python",
+      "size": 46,
+      "median_score": 1.0,
+      "median_views": 258.5,
+      "answer_rate": 0.848,
+      "examples": [
+        {
+          "question_id": 41417214,
+          "title": "Prevent pandas from reading \"NA\" as NaN",
+          "score": 26,
+          "view_count": 22988
+        },
+        {
+          "question_id": 34555135,
+          "title": "Pandas: read_html",
+          "score": 23,
+          "view_count": 46460
+        },
+        {
+          "question_id": 34550120,
+          "title": "Pandas escape carriage return in to_csv",
+          "score": 22,
+          "view_count": 31654
+        }
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "label": "matplotlib / plot / matplotlib plot / matplotlib python / axis",
+      "size": 43,
+      "median_score": 1.0,
+      "median_views": 332.0,
+      "answer_rate": 0.628,
+      "examples": [
+        {
+          "question_id": 74975596,
+          "title": "Matplotlib's show function triggering unwanted output",
+          "score": 11,
+          "view_count": 876
+        },
+        {
+          "question_id": 65523844,
+          "title": "Colormap diverging from black instead of white?",
+          "score": 10,
+          "view_count": 5655
+        },
+        {
+          "question_id": 65526338,
+          "title": "Why am I getting this matplotlib error for plotting a categorical variable?",
+          "score": 7,
+          "view_count": 7208
+        }
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "label": "python_2 / str / character_encoding / process / text",
+      "size": 42,
+      "median_score": 1.0,
+      "median_views": 482.0,
+      "answer_rate": 0.81,
+      "examples": [
+        {
+          "question_id": 27724433,
+          "title": "How can I get the list of names used in a formatting string?",
+          "score": 9,
+          "view_count": 412
+        },
+        {
+          "question_id": 34551464,
+          "title": "Resume thread of process created suspended, having lost the thread handle",
+          "score": 5,
+          "view_count": 1594
+        },
+        {
+          "question_id": 34553110,
+          "title": "Why can I not print \"\\05\" or \"\\07\" etc?",
+          "score": 4,
+          "view_count": 801
+        }
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "label": "dictionary / python_3 dictionary / dictionary python / values / keys",
+      "size": 42,
+      "median_score": 0.0,
+      "median_views": 172.0,
+      "answer_rate": 0.881,
+      "examples": [
+        {
+          "question_id": 27733685,
+          "title": "Iterating over dict values",
+          "score": 35,
+          "view_count": 124017
+        },
+        {
+          "question_id": 27734527,
+          "title": "Multiple value search in dictionary keys",
+          "score": 6,
+          "view_count": 3328
+        },
+        {
+          "question_id": 34559654,
+          "title": "Taking the max from multiple Counters instead of adding them up - Python",
+          "score": 5,
+          "view_count": 602
+        }
+      ]
+    },
+    {
+      "cluster_id": 0,
+      "label": "pygame / pygame python / sprite / pygame pygame_surface / pygame_surface",
+      "size": 40,
+      "median_score": 1.0,
+      "median_views": 190.5,
+      "answer_rate": 0.875,
+      "examples": [
+        {
+          "question_id": 41411144,
+          "title": "How to split triggers on XBOX One controllers?",
+          "score": 5,
+          "view_count": 1873
+        },
+        {
+          "question_id": 59549149,
+          "title": "Pygame move drawn rect(not image) in the same way as the player, including rotation",
+          "score": 4,
+          "view_count": 202
+        },
+        {
+          "question_id": 27726142,
+          "title": "How to pass a function to another function in order to create an action listener",
+          "score": 2,
+          "view_count": 1192
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "label": "opencv / image / opencv python / camera / image_processing",
+      "size": 37,
+      "median_score": 0.0,
+      "median_views": 715.0,
+      "answer_rate": 0.649,
+      "examples": [
+        {
+          "question_id": 27726306,
+          "title": "Python/OpenCV: Computing a depth map from stereo images",
+          "score": 19,
+          "view_count": 38702
+        },
+        {
+          "question_id": 48049886,
+          "title": "How to correctly check if a camera is available?",
+          "score": 16,
+          "view_count": 62308
+        },
+        {
+          "question_id": 41412057,
+          "title": "Get most recent frame from webcam",
+          "score": 11,
+          "view_count": 8427
+        }
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "label": "discord / discord py / discord discord / bot / discord bot",
+      "size": 37,
+      "median_score": 0.0,
+      "median_views": 395.0,
+      "answer_rate": 0.541,
+      "examples": [
+        {
+          "question_id": 70545716,
+          "title": "discord.py ffmpeg song plays too quickly at the beginning",
+          "score": 4,
+          "view_count": 2128
+        },
+        {
+          "question_id": 34548286,
+          "title": "Discord.py bot to move users to a different voice channel",
+          "score": 3,
+          "view_count": 13137
+        },
+        {
+          "question_id": 74972819,
+          "title": "discord.py music bot slowing down for longer audio queries",
+          "score": 3,
+          "view_count": 692
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "label": "regex / regular / regex python / regular expression / regex python_3",
+      "size": 36,
+      "median_score": 0.0,
+      "median_views": 125.5,
+      "answer_rate": 0.944,
+      "examples": [
+        {
+          "question_id": 27726545,
+          "title": "Python glob but against a list of strings rather than the filesystem",
+          "score": 94,
+          "view_count": 52702
+        },
+        {
+          "question_id": 34554548,
+          "title": "How to modify text that matches a particular regular expression in Python?",
+          "score": 7,
+          "view_count": 1333
+        },
+        {
+          "question_id": 53994798,
+          "title": "joining output from regex search",
+          "score": 6,
+          "view_count": 850
+        }
+      ]
+    }
+  ],
+  "javascript": [
+    {
+      "cluster_id": 28,
+      "label": "reactjs / react / react javascript / component / redux",
+      "size": 166,
+      "median_score": 0.0,
+      "median_views": 393.5,
+      "answer_rate": 0.711,
+      "examples": [
+        {
+          "question_id": 27723226,
+          "title": "Show/Hide ReactJS components without losing their internal state?",
+          "score": 32,
+          "view_count": 31188
+        },
+        {
+          "question_id": 53996114,
+          "title": "How to split media queries under webpack config?",
+          "score": 17,
+          "view_count": 5936
+        },
+        {
+          "question_id": 59551863,
+          "title": "VS Code autocomplete/intellisense not working",
+          "score": 11,
+          "view_count": 44947
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "label": "ecmascript_6 / module / web / prototype / import",
+      "size": 142,
+      "median_score": 0.0,
+      "median_views": 219.0,
+      "answer_rate": 0.718,
+      "examples": [
+        {
+          "question_id": 27730211,
+          "title": "Symbol.toPrimitive vs Object.prototype.valueOf",
+          "score": 48,
+          "view_count": 7056
+        },
+        {
+          "question_id": 34555701,
+          "title": "Understanding JavaScript in detail: is it a class, a function, or just a variable?",
+          "score": 26,
+          "view_count": 1497
+        },
+        {
+          "question_id": 48045569,
+          "title": "What's the difference between a \"classic\" and \"module\" Web Worker?",
+          "score": 19,
+          "view_count": 4900
+        }
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "label": "html / page / google / google_apps_script / java",
+      "size": 128,
+      "median_score": 0.0,
+      "median_views": 376.5,
+      "answer_rate": 0.656,
+      "examples": [
+        {
+          "question_id": 34552133,
+          "title": "Why there is no \"always allow\" option in Firefox when using `getUserMedia`?",
+          "score": 14,
+          "view_count": 1112
+        },
+        {
+          "question_id": 27731824,
+          "title": "google places autocomplete accept only valid entry",
+          "score": 7,
+          "view_count": 527
+        },
+        {
+          "question_id": 34553394,
+          "title": "Use html2canvas with jsPDF to save a PDF of a page",
+          "score": 6,
+          "view_count": 6089
+        }
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "label": "html css / css / html / element / element javascript",
+      "size": 126,
+      "median_score": 1.0,
+      "median_views": 282.5,
+      "answer_rate": 0.683,
+      "examples": [
+        {
+          "question_id": 34555106,
+          "title": "CSS Filters break 3D transforms",
+          "score": 10,
+          "view_count": 2075
+        },
+        {
+          "question_id": 59553597,
+          "title": "css text ::selection with round corners",
+          "score": 9,
+          "view_count": 2778
+        },
+        {
+          "question_id": 27731812,
+          "title": "Simple if else onclick then do?",
+          "score": 8,
+          "view_count": 218493
+        }
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "label": "node / node js / nodejs / npm / asynchronous",
+      "size": 126,
+      "median_score": 0.0,
+      "median_views": 496.5,
+      "answer_rate": 0.587,
+      "examples": [
+        {
+          "question_id": 34550890,
+          "title": "How to detect if script is running in browser or in Node.js?",
+          "score": 64,
+          "view_count": 43211
+        },
+        {
+          "question_id": 41411604,
+          "title": "How to delete local file with fs.unlink?",
+          "score": 12,
+          "view_count": 36303
+        },
+        {
+          "question_id": 48043949,
+          "title": "Nodejs - SQL queries in separate file?",
+          "score": 8,
+          "view_count": 4503
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "label": "arrays / array / array javascript / values / objects",
+      "size": 108,
+      "median_score": 0.0,
+      "median_views": 151.5,
+      "answer_rate": 0.796,
+      "examples": [
+        {
+          "question_id": 53997367,
+          "title": "How can I open multiple WebSocket streams",
+          "score": 10,
+          "view_count": 16681
+        },
+        {
+          "question_id": 53992415,
+          "title": "How to fill multidimensional array in javascript?",
+          "score": 9,
+          "view_count": 23915
+        },
+        {
+          "question_id": 48046363,
+          "title": "Copy an array into the middle of a larger array in Javascript",
+          "score": 6,
+          "view_count": 787
+        }
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "label": "jquery / css / jquery html / html css / html",
+      "size": 69,
+      "median_score": 1.0,
+      "median_views": 250.0,
+      "answer_rate": 0.754,
+      "examples": [
+        {
+          "question_id": 41416863,
+          "title": "Changing color when specific div is visible",
+          "score": 14,
+          "view_count": 8462
+        },
+        {
+          "question_id": 34554385,
+          "title": "JQuery-Mobile scrollbar",
+          "score": 11,
+          "view_count": 3776
+        },
+        {
+          "question_id": 59547121,
+          "title": "smooth transition on content change",
+          "score": 10,
+          "view_count": 13227
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "label": "angularjs / angular / ng / angularjs javascript / controller",
+      "size": 67,
+      "median_score": 1.0,
+      "median_views": 421.0,
+      "answer_rate": 0.821,
+      "examples": [
+        {
+          "question_id": 34552038,
+          "title": "Debounce function that fires FIRST then debounces subsequent actions",
+          "score": 21,
+          "view_count": 23519
+        },
+        {
+          "question_id": 27727017,
+          "title": "Angular minification with directive controller?",
+          "score": 8,
+          "view_count": 3828
+        },
+        {
+          "question_id": 27724956,
+          "title": "UI Router Extras breaks my unit tests with unexpected results error?",
+          "score": 6,
+          "view_count": 2118
+        }
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "label": "vue / vue js / vuejs2 / nuxt / component",
+      "size": 65,
+      "median_score": 0.0,
+      "median_views": 888.0,
+      "answer_rate": 0.6,
+      "examples": [
+        {
+          "question_id": 53993016,
+          "title": "How to do multiple nested route with Vue.js?",
+          "score": 10,
+          "view_count": 11759
+        },
+        {
+          "question_id": 53993252,
+          "title": "Dynamically get image paths in folder with Nuxt",
+          "score": 9,
+          "view_count": 6978
+        },
+        {
+          "question_id": 59545693,
+          "title": "Vue js returning wrong element height",
+          "score": 7,
+          "view_count": 4125
+        }
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "label": "chart / chart js / pdf / charts / chart javascript",
+      "size": 64,
+      "median_score": 1.0,
+      "median_views": 376.0,
+      "answer_rate": 0.641,
+      "examples": [
+        {
+          "question_id": 74970815,
+          "title": "I just got an error \"PrismaClient is unable to be run in the browser\" [next js]",
+          "score": 10,
+          "view_count": 29559
+        },
+        {
+          "question_id": 27724295,
+          "title": "pdf.js failing on getDocument",
+          "score": 7,
+          "view_count": 26381
+        },
+        {
+          "question_id": 74976115,
+          "title": "Nested pages in Nuxt 3",
+          "score": 5,
+          "view_count": 11447
+        }
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "label": "jquery / jquery javascript / selected / jquery_ui / blur",
+      "size": 49,
+      "median_score": 0.0,
+      "median_views": 285.0,
+      "answer_rate": 0.714,
+      "examples": [
+        {
+          "question_id": 27727655,
+          "title": "Can not populate bootstrap select with data live search + multiple with jquery",
+          "score": 5,
+          "view_count": 15362
+        },
+        {
+          "question_id": 48047897,
+          "title": "Why do UTF-8 characters not work in jquery textcomplete?",
+          "score": 5,
+          "view_count": 226
+        },
+        {
+          "question_id": 53997659,
+          "title": "How to wrap jstree children with span so that i can group them",
+          "score": 5,
+          "view_count": 630
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "label": "chrome / google_chrome / extension / google_chrome_extension / chrome extension",
+      "size": 48,
+      "median_score": 1.0,
+      "median_views": 737.5,
+      "answer_rate": 0.542,
+      "examples": [
+        {
+          "question_id": 48047150,
+          "title": "Chrome extension compiled by Webpack throws `unsafe-eval` error",
+          "score": 89,
+          "view_count": 104237
+        },
+        {
+          "question_id": 34555264,
+          "title": "Chrome extension error: Require is not defined",
+          "score": 25,
+          "view_count": 13184
+        },
+        {
+          "question_id": 34550886,
+          "title": "chrome.runtime.sendMessage not working in Chrome Extension",
+          "score": 17,
+          "view_count": 34658
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "label": "angular / angular typescript / typescript / angular javascript / html angular",
+      "size": 47,
+      "median_score": 1.0,
+      "median_views": 516.0,
+      "answer_rate": 0.553,
+      "examples": [
+        {
+          "question_id": 48048299,
+          "title": "Angular 5 Scroll to top on every Route click",
+          "score": 189,
+          "view_count": 316613
+        },
+        {
+          "question_id": 53993693,
+          "title": "How to SSR on specific routes on angular-universal?",
+          "score": 10,
+          "view_count": 516
+        },
+        {
+          "question_id": 48046386,
+          "title": "Angular/Chart.js error: Failed to create chart: can't acquire context from the given item",
+          "score": 8,
+          "view_count": 28076
+        }
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "label": "react_native / react native / native / react / reactjs react_native",
+      "size": 45,
+      "median_score": 1.0,
+      "median_views": 610.0,
+      "answer_rate": 0.578,
+      "examples": [
+        {
+          "question_id": 70545275,
+          "title": "react-native swipeable gesture not working on android?",
+          "score": 22,
+          "view_count": 11776
+        },
+        {
+          "question_id": 48046061,
+          "title": "Using Lodash debounce in React to prevent requesting data as long as the user is typing",
+          "score": 14,
+          "view_count": 22742
+        },
+        {
+          "question_id": 77744589,
+          "title": "struggling to fix: \"ReferenceError: Property 'ReadableStream' doesn't exist\"",
+          "score": 8,
+          "view_count": 8681
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "label": "php / php javascript / php html / wordpress / laravel",
+      "size": 44,
+      "median_score": 0.0,
+      "median_views": 205.0,
+      "answer_rate": 0.455,
+      "examples": [
+        {
+          "question_id": 41415297,
+          "title": "how to add Yoast wordpress plugin to laravel",
+          "score": 25,
+          "view_count": 10590
+        },
+        {
+          "question_id": 34548995,
+          "title": "How to upload file using pure vanilla javascript and php?",
+          "score": 9,
+          "view_count": 10133
+        },
+        {
+          "question_id": 34548311,
+          "title": "Data from textarea with line breaks to database",
+          "score": 3,
+          "view_count": 1198
+        }
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "label": "confusion / confusion javascript / prototype / vanilla javascript / prototype javascript",
+      "size": 41,
+      "median_score": 1.0,
+      "median_views": 516.0,
+      "answer_rate": 0.756,
+      "examples": [
+        {
+          "question_id": 59547532,
+          "title": "Shortest way to \"or\" a list of booleans in javascript",
+          "score": 3,
+          "view_count": 5809
+        },
+        {
+          "question_id": 65525507,
+          "title": "How do I export a SubtleCrypto ECDSA private key with PKCS#8 in JavaScript?",
+          "score": 3,
+          "view_count": 1451
+        },
+        {
+          "question_id": 34551070,
+          "title": "Use Babel with JavaScript",
+          "score": 2,
+          "view_count": 335
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "label": "html / dom / electron / html dom / html javascript",
+      "size": 41,
+      "median_score": 0.0,
+      "median_views": 257.0,
+      "answer_rate": 0.561,
+      "examples": [
+        {
+          "question_id": 34548969,
+          "title": "Can external JavaScript access DOM elements from a different file?",
+          "score": 4,
+          "view_count": 12733
+        },
+        {
+          "question_id": 41416052,
+          "title": "NativeImage not working in setOverlayIcon() in Electron",
+          "score": 3,
+          "view_count": 1956
+        },
+        {
+          "question_id": 48043682,
+          "title": "Transferring <a href=\"#id\"> to a javascript",
+          "score": 3,
+          "view_count": 7312
+        }
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "label": "firebase / google_cloud_firestore / firebase_realtime_database / firebase google_cloud_firestore / reactjs firebase",
+      "size": 34,
+      "median_score": 0.5,
+      "median_views": 326.0,
+      "answer_rate": 0.647,
+      "examples": [
+        {
+          "question_id": 48046672,
+          "title": "Update a field in an object in Firestore?",
+          "score": 26,
+          "view_count": 43451
+        },
+        {
+          "question_id": 70551249,
+          "title": "Firebase V9, add subcollection to existing doc",
+          "score": 11,
+          "view_count": 8758
+        },
+        {
+          "question_id": 48046404,
+          "title": "Relation between storage and database - Firebase",
+          "score": 5,
+          "view_count": 558
+        }
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "label": "ajax / jquery ajax / jquery / ajax javascript / request",
+      "size": 32,
+      "median_score": 0.0,
+      "median_views": 508.0,
+      "answer_rate": 0.5,
+      "examples": [
+        {
+          "question_id": 41414838,
+          "title": "JQuery Datatable - Placing a custom loading GIF instead of default \"Processing\" text",
+          "score": 15,
+          "view_count": 51313
+        },
+        {
+          "question_id": 41410276,
+          "title": "Best way to determine a new site user - Django",
+          "score": 2,
+          "view_count": 93
+        },
+        {
+          "question_id": 48047946,
+          "title": "Missing parameter in WebService C# (Ajax)",
+          "score": 2,
+          "view_count": 1341
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "label": "canvas / html canvas / canvas javascript / html5_canvas / draw",
+      "size": 31,
+      "median_score": 0.0,
+      "median_views": 210.0,
+      "answer_rate": 0.677,
+      "examples": [
+        {
+          "question_id": 48044951,
+          "title": "Canvas state lost after changing size",
+          "score": 10,
+          "view_count": 2683
+        },
+        {
+          "question_id": 34553418,
+          "title": "Failed to execute 'drawImage' on 'CanvasRenderingContext2D'",
+          "score": 7,
+          "view_count": 17418
+        },
+        {
+          "question_id": 34555320,
+          "title": "Html5 canvas animation not working properly",
+          "score": 5,
+          "view_count": 604
+        }
+      ]
+    }
+  ],
+  "java": [
+    {
+      "cluster_id": 18,
+      "label": "algorithm / text / time / text java / read",
+      "size": 157,
+      "median_score": 0.0,
+      "median_views": 297.0,
+      "answer_rate": 0.745,
+      "examples": [
+        {
+          "question_id": 34553782,
+          "title": "How to implement dfs using recursion?",
+          "score": 7,
+          "view_count": 19501
+        },
+        {
+          "question_id": 59558541,
+          "title": "Unable to use full text search with oak lucene",
+          "score": 7,
+          "view_count": 502
+        },
+        {
+          "question_id": 34551348,
+          "title": "Is gc always invoked, even when heap space is continuously available at run-time?",
+          "score": 6,
+          "view_count": 544
+        }
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "label": "android / activity / activity java / opencv / button",
+      "size": 152,
+      "median_score": 0.0,
+      "median_views": 369.5,
+      "answer_rate": 0.559,
+      "examples": [
+        {
+          "question_id": 34551318,
+          "title": "calculate actual distance travelled by mobile",
+          "score": 39,
+          "view_count": 17215
+        },
+        {
+          "question_id": 27729547,
+          "title": "Admob ad will not load. Error 2. It worked before but suddenly stopped",
+          "score": 21,
+          "view_count": 32107
+        },
+        {
+          "question_id": 48047337,
+          "title": "Android - redefining class removed from support library (AsyncTaskCompat)",
+          "score": 9,
+          "view_count": 3465
+        }
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "label": "lwjgl / high / tostring / unique / constructor",
+      "size": 143,
+      "median_score": 0.0,
+      "median_views": 258.0,
+      "answer_rate": 0.664,
+      "examples": [
+        {
+          "question_id": 34549044,
+          "title": "Why are detected CLI options different when using DefaultParser instead of GnuParser?",
+          "score": 24,
+          "view_count": 1852
+        },
+        {
+          "question_id": 34553034,
+          "title": "Why are Java Optionals immutable?",
+          "score": 16,
+          "view_count": 6688
+        },
+        {
+          "question_id": 41413439,
+          "title": "Encrypting and decrypting a file using CipherInputStream and CipherOutputStream",
+          "score": 11,
+          "view_count": 22416
+        }
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "label": "spring / spring_boot / spring spring_boot / jpa / spring_data_jpa",
+      "size": 125,
+      "median_score": 0.0,
+      "median_views": 757.0,
+      "answer_rate": 0.592,
+      "examples": [
+        {
+          "question_id": 48051177,
+          "title": "Content type 'multipart/form-data;boundary=----...;charset=UTF-8' not supported",
+          "score": 59,
+          "view_count": 171448
+        },
+        {
+          "question_id": 53999226,
+          "title": "Javax validation on nested objects - not working",
+          "score": 51,
+          "view_count": 53749
+        },
+        {
+          "question_id": 77748739,
+          "title": "How to make retryable calls using RestClient",
+          "score": 11,
+          "view_count": 13091
+        }
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "label": "swing / jframe / jpanel / swing user_interface / user_interface",
+      "size": 81,
+      "median_score": 0.0,
+      "median_views": 122.0,
+      "answer_rate": 0.654,
+      "examples": [
+        {
+          "question_id": 27727811,
+          "title": "Adding ImageIcon to JPanel not working",
+          "score": 3,
+          "view_count": 14343
+        },
+        {
+          "question_id": 53995194,
+          "title": "Grid drawn on A JPanel is not visible completely",
+          "score": 3,
+          "view_count": 96
+        },
+        {
+          "question_id": 70553334,
+          "title": "Java Swing - MigLayout: Docking a component in center isn't fully centering",
+          "score": 3,
+          "view_count": 250
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "label": "firebase / android / android firebase / android studio / studio",
+      "size": 71,
+      "median_score": 0.0,
+      "median_views": 217.0,
+      "answer_rate": 0.634,
+      "examples": [
+        {
+          "question_id": 34550826,
+          "title": "Exporting Jar file with Manifest attribute in Android Studio?",
+          "score": 4,
+          "view_count": 3425
+        },
+        {
+          "question_id": 70550502,
+          "title": "Duplicate class androidx.lifecycle.DefaultLifecycleObserver in modules in Android Studio app (Java)",
+          "score": 4,
+          "view_count": 5563
+        },
+        {
+          "question_id": 34548453,
+          "title": "What is \"Throwable Result Of Method Call Ignored\" in android studio?",
+          "score": 3,
+          "view_count": 5012
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "label": "maven / plugin / maven plugin / maven java / pom",
+      "size": 57,
+      "median_score": 1.0,
+      "median_views": 666.0,
+      "answer_rate": 0.614,
+      "examples": [
+        {
+          "question_id": 27726779,
+          "title": "Declare Maven dependency as test runtime only",
+          "score": 43,
+          "view_count": 20409
+        },
+        {
+          "question_id": 59557884,
+          "title": "How is default Maven plugin version decided?",
+          "score": 21,
+          "view_count": 5751
+        },
+        {
+          "question_id": 53999693,
+          "title": "How to build a multi-module Maven project without a main class in one of the modules",
+          "score": 10,
+          "view_count": 15201
+        }
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "label": "apache / apache_spark / log4j / scala / spark",
+      "size": 56,
+      "median_score": 0.0,
+      "median_views": 549.5,
+      "answer_rate": 0.5,
+      "examples": [
+        {
+          "question_id": 41412011,
+          "title": "What makes hashmaps faster?",
+          "score": 7,
+          "view_count": 7269
+        },
+        {
+          "question_id": 53998845,
+          "title": "When I use computeIfAbsent to calculate fibonacci numbers, hashmap size() returns incorrect value",
+          "score": 6,
+          "view_count": 1123
+        },
+        {
+          "question_id": 59552228,
+          "title": "Extra Logger for Spark in a Separate file for a specific Task",
+          "score": 4,
+          "view_count": 1155
+        }
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "label": "javafx / fxml / tableview / javafx java / javafx tableview",
+      "size": 52,
+      "median_score": 1.0,
+      "median_views": 386.0,
+      "answer_rate": 0.673,
+      "examples": [
+        {
+          "question_id": 34550889,
+          "title": "javafx gridpane layout with wrapping text",
+          "score": 7,
+          "view_count": 3394
+        },
+        {
+          "question_id": 59551896,
+          "title": "How to get the controller of an included FXML?",
+          "score": 4,
+          "view_count": 2492
+        },
+        {
+          "question_id": 77761833,
+          "title": "How do I render my lines in front of my rectangles in my code?",
+          "score": 4,
+          "view_count": 152
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "label": "multithreading / thread / concurrency / threads / thread java",
+      "size": 52,
+      "median_score": 1.0,
+      "median_views": 457.5,
+      "answer_rate": 0.75,
+      "examples": [
+        {
+          "question_id": 77750151,
+          "title": "Should virtual threads die fast?",
+          "score": 10,
+          "view_count": 3235
+        },
+        {
+          "question_id": 53999241,
+          "title": "Why is the word \"join\" is used for the Thread.join() method?",
+          "score": 9,
+          "view_count": 1744
+        },
+        {
+          "question_id": 27730819,
+          "title": "Register callback on Future",
+          "score": 4,
+          "view_count": 481
+        }
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "label": "boot / spring boot / spring / spring_boot / boot java",
+      "size": 49,
+      "median_score": 0.0,
+      "median_views": 1095.0,
+      "answer_rate": 0.673,
+      "examples": [
+        {
+          "question_id": 34556677,
+          "title": "Spring Boot: Load @Value from YAML file",
+          "score": 47,
+          "view_count": 209650
+        },
+        {
+          "question_id": 70555241,
+          "title": "Spring Boot, OAuth2 authentication is lost between requests",
+          "score": 6,
+          "view_count": 2643
+        },
+        {
+          "question_id": 70563969,
+          "title": "Spring Boot: Set defaultValue in RequestParam to a value in application.properties?",
+          "score": 6,
+          "view_count": 2526
+        }
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "label": "arrays / array / array java / arraylist / values",
+      "size": 49,
+      "median_score": 0.0,
+      "median_views": 258.0,
+      "answer_rate": 0.816,
+      "examples": [
+        {
+          "question_id": 27728550,
+          "title": "Resize primitive 2D array",
+          "score": 5,
+          "view_count": 4399
+        },
+        {
+          "question_id": 34556387,
+          "title": "Java - Iterate over a 2-dimensional array starting with the middle",
+          "score": 4,
+          "view_count": 1614
+        },
+        {
+          "question_id": 34553984,
+          "title": "Sorting BigDecimal",
+          "score": 3,
+          "view_count": 14998
+        }
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "label": "hibernate / jpa / hibernate jpa / spring hibernate / spring",
+      "size": 48,
+      "median_score": 1.0,
+      "median_views": 420.5,
+      "answer_rate": 0.583,
+      "examples": [
+        {
+          "question_id": 27725770,
+          "title": "JPA Criteria query group by uses only the id",
+          "score": 15,
+          "view_count": 37872
+        },
+        {
+          "question_id": 41417575,
+          "title": "hbm2ddl.auto is set to \"UPDATE\", but its trying to create table before every insertion",
+          "score": 5,
+          "view_count": 3631
+        },
+        {
+          "question_id": 77757289,
+          "title": "DATE_PART function not working after migrating to hibernate 6",
+          "score": 4,
+          "view_count": 299
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "label": "json / jackson / json java / android json / gson",
+      "size": 46,
+      "median_score": 0.0,
+      "median_views": 670.0,
+      "answer_rate": 0.63,
+      "examples": [
+        {
+          "question_id": 27728503,
+          "title": "Jackson JSON force deserialize to object",
+          "score": 4,
+          "view_count": 1580
+        },
+        {
+          "question_id": 59549259,
+          "title": "@JsonFormat not working with custom serializer",
+          "score": 3,
+          "view_count": 2837
+        },
+        {
+          "question_id": 41415247,
+          "title": "Specify swagger.json url for swagger UI wildfly swarm",
+          "score": 2,
+          "view_count": 1770
+        }
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "label": "java_stream / stream / java_8 / interface / lambda",
+      "size": 46,
+      "median_score": 1.0,
+      "median_views": 531.0,
+      "answer_rate": 0.826,
+      "examples": [
+        {
+          "question_id": 48053127,
+          "title": "Get the extension from a MimeType",
+          "score": 19,
+          "view_count": 42554
+        },
+        {
+          "question_id": 48049567,
+          "title": "Unable to convert char[] to stream in java 8",
+          "score": 9,
+          "view_count": 8231
+        },
+        {
+          "question_id": 53990843,
+          "title": "Java 8 Lambda Chaining - Type Safety Enforcement",
+          "score": 7,
+          "view_count": 151
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "label": "eclipse / eclipse java / swt / project / eclipse_rcp",
+      "size": 38,
+      "median_score": 0.0,
+      "median_views": 260.0,
+      "answer_rate": 0.5,
+      "examples": [
+        {
+          "question_id": 27726965,
+          "title": "Discrepancy between Eclipse compiler and javac - Enums, interfaces, and generics",
+          "score": 6,
+          "view_count": 281
+        },
+        {
+          "question_id": 27725436,
+          "title": "ComboBoxCellEditor - get rid of the text box?",
+          "score": 3,
+          "view_count": 176
+        },
+        {
+          "question_id": 65539331,
+          "title": "Use SWT in Eclipse in a Java 15 modular setup",
+          "score": 3,
+          "view_count": 649
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "label": "gradle / intellij_idea / intellij / idea / intellij idea",
+      "size": 37,
+      "median_score": 1.0,
+      "median_views": 559.0,
+      "answer_rate": 0.568,
+      "examples": [
+        {
+          "question_id": 27728401,
+          "title": "Gradle: Copy subproject resources",
+          "score": 8,
+          "view_count": 5389
+        },
+        {
+          "question_id": 77746136,
+          "title": "How to exclude one of the variants of com.google.guava dependency while building Gradle projects",
+          "score": 5,
+          "view_count": 6374
+        },
+        {
+          "question_id": 77763233,
+          "title": "Make SLF4J log to Logcat in Android and console in tests (gradle dependency issue)",
+          "score": 5,
+          "view_count": 1741
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "label": "mysql / hibernate / database / mysql database / mysql java",
+      "size": 36,
+      "median_score": 0.0,
+      "median_views": 457.5,
+      "answer_rate": 0.583,
+      "examples": [
+        {
+          "question_id": 41418186,
+          "title": "Hibernate: limit in subquery and then sum results",
+          "score": 3,
+          "view_count": 466
+        },
+        {
+          "question_id": 53998804,
+          "title": "Hibernate configuration for Mysql 8.0",
+          "score": 3,
+          "view_count": 6827
+        },
+        {
+          "question_id": 65532592,
+          "title": "How do I insert local variable MySQL using JDBC",
+          "score": 2,
+          "view_count": 931
+        }
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "label": "nullpointerexception / lang / android / lang nullpointerexception / android nullpointerexception",
+      "size": 34,
+      "median_score": 0.0,
+      "median_views": 393.0,
+      "answer_rate": 0.5,
+      "examples": [
+        {
+          "question_id": 53990175,
+          "title": "CXFServlet throws java.lang.NoSuchMethodError: org.codehaus.stax2.ri.EmptyIterator.getInstance()Lorg/codehaus/stax2/ri/EmptyIterator;",
+          "score": 19,
+          "view_count": 31330
+        },
+        {
+          "question_id": 65526146,
+          "title": "java.lang.IllegalStateException: Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<java.lang.Object>",
+          "score": 7,
+          "view_count": 39468
+        },
+        {
+          "question_id": 34555185,
+          "title": "System.console() NullPointerException",
+          "score": 4,
+          "view_count": 14131
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "label": "android_studio / android android_studio / android / android_studio android_fragments / imageview",
+      "size": 34,
+      "median_score": 0.0,
+      "median_views": 272.0,
+      "answer_rate": 0.441,
+      "examples": [
+        {
+          "question_id": 53995724,
+          "title": "Async task not supporting in android 9.0 (Pie)",
+          "score": 5,
+          "view_count": 5042
+        },
+        {
+          "question_id": 53994441,
+          "title": "Why does the debug report logs \"Attempted to finish an input event but the input event receiver has already been disposed\" on clicking a spinner?",
+          "score": 3,
+          "view_count": 1323
+        },
+        {
+          "question_id": 65535621,
+          "title": "How can I switch between Fragments without destroying them?",
+          "score": 3,
+          "view_count": 2160
+        }
+      ]
+    }
+  ],
+  "go": [
+    {
+      "cluster_id": 32,
+      "label": "js / encryption / aes / node js / node",
+      "size": 171,
+      "median_score": 1.0,
+      "median_views": 979.0,
+      "answer_rate": 0.766,
+      "examples": [
+        {
+          "question_id": 34846848,
+          "title": "How to break a long line of code in Golang?",
+          "score": 167,
+          "view_count": 124952
+        },
+        {
+          "question_id": 34691045,
+          "title": "Cannot assign string with single quote in golang",
+          "score": 58,
+          "view_count": 38878
+        },
+        {
+          "question_id": 28020070,
+          "title": "Golang serialize and deserialize back",
+          "score": 44,
+          "view_count": 78918
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "label": "goroutine / channel / concurrency / goroutines / channel goroutine",
+      "size": 137,
+      "median_score": 1.0,
+      "median_views": 495.0,
+      "answer_rate": 0.803,
+      "examples": [
+        {
+          "question_id": 34897843,
+          "title": "Why does Go panic on writing to a closed channel?",
+          "score": 37,
+          "view_count": 48975
+        },
+        {
+          "question_id": 54128834,
+          "title": "Context without cancel propagation",
+          "score": 32,
+          "view_count": 18701
+        },
+        {
+          "question_id": 34750323,
+          "title": "Is variable assignment atomic in go?",
+          "score": 16,
+          "view_count": 9419
+        }
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "label": "http / request / server / tcp / redis",
+      "size": 122,
+      "median_score": 1.0,
+      "median_views": 1490.0,
+      "answer_rate": 0.721,
+      "examples": [
+        {
+          "question_id": 27945310,
+          "title": "Why do I need to use http.StripPrefix to access my static files?",
+          "score": 54,
+          "view_count": 36565
+        },
+        {
+          "question_id": 41627931,
+          "title": "Why is fasthttp faster than net/http?",
+          "score": 50,
+          "view_count": 39889
+        },
+        {
+          "question_id": 27972715,
+          "title": "multiple response.WriteHeader calls in really simple example?",
+          "score": 34,
+          "view_count": 50820
+        }
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "label": "json / unmarshalling / struct / json json / unmarshal",
+      "size": 84,
+      "median_score": 1.0,
+      "median_views": 1105.0,
+      "answer_rate": 0.833,
+      "examples": [
+        {
+          "question_id": 48050945,
+          "title": "How to unmarshal JSON into durations?",
+          "score": 40,
+          "view_count": 31821
+        },
+        {
+          "question_id": 27994327,
+          "title": "Golang json Unmarshal \"unexpected end of JSON input\"",
+          "score": 34,
+          "view_count": 128458
+        },
+        {
+          "question_id": 41410655,
+          "title": "extract JSON from golang's echo request",
+          "score": 21,
+          "view_count": 39975
+        }
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "label": "slice / range / loop / byte / variables",
+      "size": 75,
+      "median_score": 1.0,
+      "median_views": 1289.0,
+      "answer_rate": 0.907,
+      "examples": [
+        {
+          "question_id": 27764421,
+          "title": "What is \"_,\" (underscore comma) in a Go declaration?",
+          "score": 132,
+          "view_count": 90707
+        },
+        {
+          "question_id": 41668053,
+          "title": "cap vs len of slice in golang",
+          "score": 95,
+          "view_count": 63276
+        },
+        {
+          "question_id": 27938177,
+          "title": "golang slice, slicing a slice with slice[a:b:c]",
+          "score": 72,
+          "view_count": 67193
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "label": "html / template / go_templates / templates / html template",
+      "size": 73,
+      "median_score": 1.0,
+      "median_views": 1146.0,
+      "answer_rate": 0.726,
+      "examples": [
+        {
+          "question_id": 59607605,
+          "title": "why dash is used in condition Go templates",
+          "score": 39,
+          "view_count": 21324
+        },
+        {
+          "question_id": 54156119,
+          "title": "Range over string slice in golang template",
+          "score": 25,
+          "view_count": 62874
+        },
+        {
+          "question_id": 41647788,
+          "title": "How to replace string in Go template?",
+          "score": 15,
+          "view_count": 28246
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "label": "mongodb / mgo / mongo / mongodb mgo / mongodb golang",
+      "size": 67,
+      "median_score": 1.0,
+      "median_views": 570.0,
+      "answer_rate": 0.642,
+      "examples": [
+        {
+          "question_id": 27742381,
+          "title": "Golang mongodb remove all items from collection [mgo.v2]",
+          "score": 6,
+          "view_count": 10437
+        },
+        {
+          "question_id": 59561529,
+          "title": "Necessity of bson struct tag when using with MongoDB go client",
+          "score": 5,
+          "view_count": 6348
+        },
+        {
+          "question_id": 48163774,
+          "title": "Get a value in a reference of a lookup with MongoDB and Golang",
+          "score": 4,
+          "view_count": 3770
+        }
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "label": "struct / struct struct / tags / structs / fields",
+      "size": 58,
+      "median_score": 0.5,
+      "median_views": 1129.5,
+      "answer_rate": 0.862,
+      "examples": [
+        {
+          "question_id": 34644117,
+          "title": "Golang struct inheritance not working as intended?",
+          "score": 33,
+          "view_count": 43421
+        },
+        {
+          "question_id": 48253423,
+          "title": "Unique Hash from struct",
+          "score": 16,
+          "view_count": 40821
+        },
+        {
+          "question_id": 54125967,
+          "title": "How to literally initialize multi-level nested structs in GO?",
+          "score": 6,
+          "view_count": 10235
+        }
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "label": "go_gorm / gorm / gorm go_gorm / postgresql / grails_orm",
+      "size": 52,
+      "median_score": 1.0,
+      "median_views": 638.5,
+      "answer_rate": 0.558,
+      "examples": [
+        {
+          "question_id": 54048774,
+          "title": "How to create a Postgres database using GORM",
+          "score": 17,
+          "view_count": 18910
+        },
+        {
+          "question_id": 34667199,
+          "title": "gorm Many To Many Select gives invalid association [] error",
+          "score": 7,
+          "view_count": 8245
+        },
+        {
+          "question_id": 70615863,
+          "title": "Validation using golang, gin and gorm with postgres like email already exist in database",
+          "score": 6,
+          "view_count": 6061
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "label": "docker / container / dockerfile / docker container / inside",
+      "size": 52,
+      "median_score": 1.0,
+      "median_views": 771.5,
+      "answer_rate": 0.519,
+      "examples": [
+        {
+          "question_id": 34729748,
+          "title": "Installed Go binary not found in path on Alpine Linux Docker",
+          "score": 71,
+          "view_count": 55837
+        },
+        {
+          "question_id": 75078744,
+          "title": "docker: Error response from daemon: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process",
+          "score": 51,
+          "view_count": 307248
+        },
+        {
+          "question_id": 59651937,
+          "title": "How to exit dlv connected to a headless server without killing remote process",
+          "score": 7,
+          "view_count": 3739
+        }
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "label": "testing / test / unit_testing / unit / mocking",
+      "size": 50,
+      "median_score": 1.0,
+      "median_views": 1491.5,
+      "answer_rate": 0.76,
+      "examples": [
+        {
+          "question_id": 27778280,
+          "title": "Test killed with quit: ran too long",
+          "score": 23,
+          "view_count": 11086
+        },
+        {
+          "question_id": 54165975,
+          "title": "go test: only run tests that contain a build tag?",
+          "score": 19,
+          "view_count": 34081
+        },
+        {
+          "question_id": 34889721,
+          "title": "Fixtures in Golang testing",
+          "score": 14,
+          "view_count": 11505
+        }
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "label": "windows / linux / process / cross / winapi",
+      "size": 45,
+      "median_score": 1.0,
+      "median_views": 1053.0,
+      "answer_rate": 0.756,
+      "examples": [
+        {
+          "question_id": 41566495,
+          "title": "Golang: How to cross compile on Linux for Windows",
+          "score": 37,
+          "view_count": 69461
+        },
+        {
+          "question_id": 48270988,
+          "title": "Error with go cross-compilation: unsupported GOOS/GOARCH pair linux /amd64",
+          "score": 16,
+          "view_count": 19894
+        },
+        {
+          "question_id": 54139606,
+          "title": "How to create a hidden file in Windows/Mac/Linux?",
+          "score": 7,
+          "view_count": 3379
+        }
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "label": "visual_studio_code / vscode / debugging / vs / vscode visual_studio_code",
+      "size": 44,
+      "median_score": 1.0,
+      "median_views": 1656.0,
+      "answer_rate": 0.75,
+      "examples": [
+        {
+          "question_id": 48124565,
+          "title": "Why does vscode delete golang source on save",
+          "score": 82,
+          "view_count": 46042
+        },
+        {
+          "question_id": 65748509,
+          "title": "VS Code shows an error when having multiple Go Projects in a directory",
+          "score": 64,
+          "view_count": 104435
+        },
+        {
+          "question_id": 59756331,
+          "title": "How to show the entire value in VSCode debug mode",
+          "score": 40,
+          "view_count": 39127
+        }
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "label": "package / import / import package / vendor / local",
+      "size": 42,
+      "median_score": 1.0,
+      "median_views": 1095.0,
+      "answer_rate": 0.738,
+      "examples": [
+        {
+          "question_id": 27812164,
+          "title": "Can I import 3rd party package into golang playground",
+          "score": 27,
+          "view_count": 13814
+        },
+        {
+          "question_id": 65526901,
+          "title": "Can't update single package with go modules",
+          "score": 15,
+          "view_count": 22787
+        },
+        {
+          "question_id": 41571946,
+          "title": "Internal packages in Go",
+          "score": 8,
+          "view_count": 15549
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "label": "mysql / sql / postgresql / query / sql postgresql",
+      "size": 42,
+      "median_score": 0.5,
+      "median_views": 880.0,
+      "answer_rate": 0.738,
+      "examples": [
+        {
+          "question_id": 34563303,
+          "title": "golang mysql undefined: sql.Query",
+          "score": 6,
+          "view_count": 4517
+        },
+        {
+          "question_id": 59558057,
+          "title": "How to make query parameters optional",
+          "score": 6,
+          "view_count": 3052
+        },
+        {
+          "question_id": 53990799,
+          "title": "How to get id of last inserted row from sqlx?",
+          "score": 4,
+          "view_count": 6816
+        }
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "label": "google_app_engine / app / app engine / engine / google app",
+      "size": 42,
+      "median_score": 1.0,
+      "median_views": 562.5,
+      "answer_rate": 0.69,
+      "examples": [
+        {
+          "question_id": 28032055,
+          "title": "How to open localhost:8080 in Cloud9 IDE?",
+          "score": 5,
+          "view_count": 7667
+        },
+        {
+          "question_id": 34751121,
+          "title": "INVALID_REQUEST error in pull taskqueues",
+          "score": 4,
+          "view_count": 60
+        },
+        {
+          "question_id": 34802974,
+          "title": "I can't deploy a Go module to App Engine using the google.golang.org/appengine modules",
+          "score": 4,
+          "view_count": 3987
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "label": "time / time time / date / format / timestamp",
+      "size": 40,
+      "median_score": 1.0,
+      "median_views": 1092.0,
+      "answer_rate": 0.9,
+      "examples": [
+        {
+          "question_id": 41503758,
+          "title": "Conversion of time.Duration type microseconds value to milliseconds",
+          "score": 84,
+          "view_count": 189875
+        },
+        {
+          "question_id": 27989251,
+          "title": "Assign a time.Date to a *time.Time pointer to test a JSON deserialization",
+          "score": 11,
+          "view_count": 12455
+        },
+        {
+          "question_id": 48158953,
+          "title": "How to declare a constant date in go",
+          "score": 11,
+          "view_count": 6549
+        }
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "label": "go_modules / module / path / version / modules",
+      "size": 39,
+      "median_score": 1.0,
+      "median_views": 1769.0,
+      "answer_rate": 0.615,
+      "examples": [
+        {
+          "question_id": 34668012,
+          "title": "Combine URL paths with path.Join()",
+          "score": 101,
+          "view_count": 110447
+        },
+        {
+          "question_id": 54133789,
+          "title": "Go modules: checksum mismatch",
+          "score": 48,
+          "view_count": 82638
+        },
+        {
+          "question_id": 34587978,
+          "title": "How to upgrade go from 1.4 to 1.5 via homebrew",
+          "score": 31,
+          "view_count": 68289
+        }
+      ]
+    },
+    {
+      "cluster_id": 0,
+      "label": "regex / regexp / match / characters / substring",
+      "size": 38,
+      "median_score": 0.0,
+      "median_views": 602.5,
+      "answer_rate": 0.816,
+      "examples": [
+        {
+          "question_id": 34673039,
+          "title": "Go ReplaceAllString",
+          "score": 8,
+          "view_count": 13162
+        },
+        {
+          "question_id": 34828408,
+          "title": "What is the difference between regexp.Compile and regexp.CompilePOSIX?",
+          "score": 4,
+          "view_count": 1506
+        },
+        {
+          "question_id": 48249480,
+          "title": "Regular expression enforcing at least one in two groups",
+          "score": 4,
+          "view_count": 3831
+        }
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "label": "amazon_web_services / aws / sdk / access / aws sdk",
+      "size": 36,
+      "median_score": 1.0,
+      "median_views": 769.5,
+      "answer_rate": 0.583,
+      "examples": [
+        {
+          "question_id": 41544554,
+          "title": "How to run AWS SDK with credentials from variables?",
+          "score": 23,
+          "view_count": 28520
+        },
+        {
+          "question_id": 27936844,
+          "title": "Why IntelliJ Idea cannot find location of GO SDK?",
+          "score": 13,
+          "view_count": 26868
+        },
+        {
+          "question_id": 34690518,
+          "title": "How do I track progress in a multipart upload to s3 using Go?",
+          "score": 5,
+          "view_count": 3504
+        }
+      ]
+    }
+  ]
+}
