@@ -210,7 +210,8 @@ const Charts = (() => {
     const el = document.getElementById(containerId);
     if (!el) return;
 
-    const clusters = (data[lang] || []).slice(0, 15);
+    // 降順ソート済みデータを取得し、Plotly の下→上描画に合わせて逆順にする
+    const clusters = (data[lang] || []).slice(0, 15).reverse();
     if (!clusters.length) return;
 
     const LANG_COLORS = {
