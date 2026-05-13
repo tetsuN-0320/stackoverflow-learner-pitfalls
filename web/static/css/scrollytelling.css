@@ -85,6 +85,13 @@
   justify-content: center;
 }
 
+/* D3 ネットワーク図コンテナ */
+#chart-network {
+  width: 100%;
+  min-height: 560px;
+  align-self: stretch;
+}
+
 /* スクロールで章が入ってくるアニメーション */
 .act {
   opacity: 0;

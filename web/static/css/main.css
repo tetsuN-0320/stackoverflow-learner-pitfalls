@@ -153,6 +153,51 @@ a:hover {
   margin-bottom: var(--spacing-sm);
 }
 
+/* D3 ネットワーク ツールチップ */
+.network-tooltip {
+  position: absolute;
+  background: rgba(26, 29, 39, 0.96);
+  border: 1px solid var(--color-primary);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  color: var(--color-text);
+  pointer-events: none;
+  z-index: 300;
+  max-width: 220px;
+  line-height: 1.6;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+}
+
+.network-tooltip strong {
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+/* ネットワーク凡例 */
+.network-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
 /* ノード詳細パネル */
 .node-detail {
   margin-top: var(--spacing-md);
