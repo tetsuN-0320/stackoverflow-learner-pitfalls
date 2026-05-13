@@ -37,10 +37,14 @@
           過去10年で、プログラマーが最も悩んだ言語はどう変わったのか。
           Stack Overflow への質問数は、学習需要の実態を映す鏡だ。
         </p>
+        <div class="chart-toggle" id="trend-toggle">
+          <button class="toggle-btn active" data-view="survey">開発者調査（使用率）</button>
+          <button class="toggle-btn" data-view="complexity">回答率トレンド（10年）</button>
+        </div>
       </div>
       <div class="act-chart" id="chart-trend">
-        <!-- Plotly で描画（build_site.py 実行後に有効化） -->
-        <div class="chart-placeholder">トレンドチャート（分析データ生成後に表示）</div>
+        <div id="chart-survey-el" class="plotly-chart"></div>
+        <div id="chart-complexity-el" class="plotly-chart" style="display:none"></div>
       </div>
     </section>
 
@@ -104,10 +108,11 @@
     <p>CC BY-SA 4.0 | <a href="about.html">詳細・免責事項</a></p>
   </footer>
 
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
   <script src="static/lib/d3.v7.min.js"></script>
   <script src="static/js/scroll.js"></script>
-  <script src="static/js/network.js"></script>
   <script src="static/js/charts.js"></script>
+  <script src="static/js/network.js"></script>
   <script src="static/js/language_switch.js"></script>
 </body>
 </html>

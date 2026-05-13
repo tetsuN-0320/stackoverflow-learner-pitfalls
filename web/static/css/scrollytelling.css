@@ -97,6 +97,42 @@
   transform: translateY(0);
 }
 
+/* チャートトグルボタン */
+.chart-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.toggle-btn {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 2rem;
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-size: 0.82rem;
+  transition: all 0.2s;
+}
+
+.toggle-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-text);
+}
+
+.toggle-btn.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+/* Plotly チャートコンテナ */
+.plotly-chart {
+  width: 100%;
+  min-height: 420px;
+}
+
 /* 第4幕: インサイトカード */
 .insights {
   display: flex;
