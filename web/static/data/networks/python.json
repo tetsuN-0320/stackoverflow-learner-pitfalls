@@ -1,11 +1,277 @@
 {
   "nodes": [
     {
+      "id": "python-3.x",
+      "frequency": 321,
+      "community": 0,
+      "degree_centrality": 0.5405,
+      "betweenness_centrality": 0.4945
+    },
+    {
       "id": "python",
       "frequency": 3000,
       "community": 0,
       "degree_centrality": 1.0,
       "betweenness_centrality": 0.2321
+    },
+    {
+      "id": "django",
+      "frequency": 222,
+      "community": 0,
+      "degree_centrality": 0.1757,
+      "betweenness_centrality": 0.1257
+    },
+    {
+      "id": "numpy",
+      "frequency": 135,
+      "community": 4,
+      "degree_centrality": 0.1892,
+      "betweenness_centrality": 0.1163
+    },
+    {
+      "id": "pandas",
+      "frequency": 295,
+      "community": 3,
+      "degree_centrality": 0.2568,
+      "betweenness_centrality": 0.1058
+    },
+    {
+      "id": "csv",
+      "frequency": 42,
+      "community": 3,
+      "degree_centrality": 0.1081,
+      "betweenness_centrality": 0.1049
+    },
+    {
+      "id": "list",
+      "frequency": 91,
+      "community": 0,
+      "degree_centrality": 0.1622,
+      "betweenness_centrality": 0.0916
+    },
+    {
+      "id": "sockets",
+      "frequency": 16,
+      "community": 0,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0815
+    },
+    {
+      "id": "python-2.7",
+      "frequency": 83,
+      "community": 0,
+      "degree_centrality": 0.1216,
+      "betweenness_centrality": 0.0756
+    },
+    {
+      "id": "web-scraping",
+      "frequency": 50,
+      "community": 2,
+      "degree_centrality": 0.1351,
+      "betweenness_centrality": 0.0533
+    },
+    {
+      "id": "scikit-learn",
+      "frequency": 31,
+      "community": 5,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0526
+    },
+    {
+      "id": "sqlite",
+      "frequency": 25,
+      "community": 0,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.0404
+    },
+    {
+      "id": "deep-learning",
+      "frequency": 22,
+      "community": 5,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0389
+    },
+    {
+      "id": "flask",
+      "frequency": 73,
+      "community": 0,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0322
+    },
+    {
+      "id": "mysql",
+      "frequency": 26,
+      "community": 0,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0281
+    },
+    {
+      "id": "python-requests",
+      "frequency": 20,
+      "community": 2,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.028
+    },
+    {
+      "id": "dictionary",
+      "frequency": 58,
+      "community": 0,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.027
+    },
+    {
+      "id": "django-views",
+      "frequency": 15,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.027
+    },
+    {
+      "id": "multithreading",
+      "frequency": 22,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0233
+    },
+    {
+      "id": "arrays",
+      "frequency": 51,
+      "community": 4,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0231
+    },
+    {
+      "id": "tensorflow",
+      "frequency": 79,
+      "community": 5,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.0224
+    },
+    {
+      "id": "neural-network",
+      "frequency": 15,
+      "community": 5,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0215
+    },
+    {
+      "id": "dataframe",
+      "frequency": 123,
+      "community": 3,
+      "degree_centrality": 0.1216,
+      "betweenness_centrality": 0.0173
+    },
+    {
+      "id": "database",
+      "frequency": 19,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0152
+    },
+    {
+      "id": "plot",
+      "frequency": 16,
+      "community": 4,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0148
+    },
+    {
+      "id": "json",
+      "frequency": 51,
+      "community": 0,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0147
+    },
+    {
+      "id": "excel",
+      "frequency": 15,
+      "community": 3,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.013
+    },
+    {
+      "id": "javascript",
+      "frequency": 28,
+      "community": 2,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0124
+    },
+    {
+      "id": "regex",
+      "frequency": 39,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0093
+    },
+    {
+      "id": "xml",
+      "frequency": 20,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0089
+    },
+    {
+      "id": "file",
+      "frequency": 16,
+      "community": 0,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0074
+    },
+    {
+      "id": "machine-learning",
+      "frequency": 42,
+      "community": 5,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.0074
+    },
+    {
+      "id": "matrix",
+      "frequency": 15,
+      "community": 4,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0056
+    },
+    {
+      "id": "multiprocessing",
+      "frequency": 16,
+      "community": 0,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0037
+    },
+    {
+      "id": "beautifulsoup",
+      "frequency": 49,
+      "community": 2,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0017
+    },
+    {
+      "id": "html",
+      "frequency": 62,
+      "community": 2,
+      "degree_centrality": 0.1216,
+      "betweenness_centrality": 0.0015
+    },
+    {
+      "id": "tkinter",
+      "frequency": 87,
+      "community": 0,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0013
+    },
+    {
+      "id": "sql",
+      "frequency": 23,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0004
+    },
+    {
+      "id": "keras",
+      "frequency": 43,
+      "community": 5,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0002
     },
     {
       "id": "windows",
@@ -29,13 +295,6 @@
       "betweenness_centrality": 0.0
     },
     {
-      "id": "python-2.7",
-      "frequency": 83,
-      "community": 0,
-      "degree_centrality": 0.1216,
-      "betweenness_centrality": 0.0756
-    },
-    {
       "id": "pip",
       "frequency": 35,
       "community": 0,
@@ -48,41 +307,6 @@
       "community": 0,
       "degree_centrality": 0.027,
       "betweenness_centrality": 0.0
-    },
-    {
-      "id": "python-3.x",
-      "frequency": 321,
-      "community": 0,
-      "degree_centrality": 0.5405,
-      "betweenness_centrality": 0.4945
-    },
-    {
-      "id": "csv",
-      "frequency": 42,
-      "community": 3,
-      "degree_centrality": 0.1081,
-      "betweenness_centrality": 0.1049
-    },
-    {
-      "id": "dictionary",
-      "frequency": 58,
-      "community": 0,
-      "degree_centrality": 0.0811,
-      "betweenness_centrality": 0.027
-    },
-    {
-      "id": "flask",
-      "frequency": 73,
-      "community": 0,
-      "degree_centrality": 0.0811,
-      "betweenness_centrality": 0.0322
-    },
-    {
-      "id": "html",
-      "frequency": 62,
-      "community": 2,
-      "degree_centrality": 0.1216,
-      "betweenness_centrality": 0.0015
     },
     {
       "id": "selenium",
@@ -106,32 +330,11 @@
       "betweenness_centrality": 0.0
     },
     {
-      "id": "scikit-learn",
-      "frequency": 31,
-      "community": 5,
-      "degree_centrality": 0.0676,
-      "betweenness_centrality": 0.0526
-    },
-    {
       "id": "matplotlib",
       "frequency": 81,
       "community": 4,
       "degree_centrality": 0.0811,
       "betweenness_centrality": 0.0
-    },
-    {
-      "id": "plot",
-      "frequency": 16,
-      "community": 4,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0148
-    },
-    {
-      "id": "tkinter",
-      "frequency": 87,
-      "community": 0,
-      "degree_centrality": 0.0676,
-      "betweenness_centrality": 0.0013
     },
     {
       "id": "string",
@@ -145,384 +348,6 @@
       "frequency": 41,
       "community": 0,
       "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "pyqt",
-      "frequency": 21,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "django",
-      "frequency": 222,
-      "community": 0,
-      "degree_centrality": 0.1757,
-      "betweenness_centrality": 0.1257
-    },
-    {
-      "id": "opencv",
-      "frequency": 47,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "javascript",
-      "frequency": 28,
-      "community": 2,
-      "degree_centrality": 0.0811,
-      "betweenness_centrality": 0.0124
-    },
-    {
-      "id": "for-loop",
-      "frequency": 28,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "xml",
-      "frequency": 20,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0089
-    },
-    {
-      "id": "matrix",
-      "frequency": 15,
-      "community": 4,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0056
-    },
-    {
-      "id": "regex",
-      "frequency": 39,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0093
-    },
-    {
-      "id": "list",
-      "frequency": 91,
-      "community": 0,
-      "degree_centrality": 0.1622,
-      "betweenness_centrality": 0.0916
-    },
-    {
-      "id": "arrays",
-      "frequency": 51,
-      "community": 4,
-      "degree_centrality": 0.0811,
-      "betweenness_centrality": 0.0231
-    },
-    {
-      "id": "numpy",
-      "frequency": 135,
-      "community": 4,
-      "degree_centrality": 0.1892,
-      "betweenness_centrality": 0.1163
-    },
-    {
-      "id": "function",
-      "frequency": 30,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "python-requests",
-      "frequency": 20,
-      "community": 2,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.028
-    },
-    {
-      "id": "pycharm",
-      "frequency": 17,
-      "community": 0,
-      "degree_centrality": 0.0135,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "multithreading",
-      "frequency": 22,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0233
-    },
-    {
-      "id": "web-scraping",
-      "frequency": 50,
-      "community": 2,
-      "degree_centrality": 0.1351,
-      "betweenness_centrality": 0.0533
-    },
-    {
-      "id": "file",
-      "frequency": 16,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0074
-    },
-    {
-      "id": "loops",
-      "frequency": 29,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "ubuntu",
-      "frequency": 15,
-      "community": 0,
-      "degree_centrality": 0.0135,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "amazon-web-services",
-      "frequency": 19,
-      "community": 0,
-      "degree_centrality": 0.0135,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "linux",
-      "frequency": 19,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "raspberry-pi",
-      "frequency": 24,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "pandas",
-      "frequency": 295,
-      "community": 3,
-      "degree_centrality": 0.2568,
-      "betweenness_centrality": 0.1058
-    },
-    {
-      "id": "dataframe",
-      "frequency": 123,
-      "community": 3,
-      "degree_centrality": 0.1216,
-      "betweenness_centrality": 0.0173
-    },
-    {
-      "id": "mysql",
-      "frequency": 26,
-      "community": 0,
-      "degree_centrality": 0.0676,
-      "betweenness_centrality": 0.0281
-    },
-    {
-      "id": "datetime",
-      "frequency": 17,
-      "community": 3,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "django-rest-framework",
-      "frequency": 17,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "kivy",
-      "frequency": 24,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "beautifulsoup",
-      "frequency": 49,
-      "community": 2,
-      "degree_centrality": 0.0811,
-      "betweenness_centrality": 0.0017
-    },
-    {
-      "id": "nlp",
-      "frequency": 16,
-      "community": 0,
-      "degree_centrality": 0.0135,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "json",
-      "frequency": 51,
-      "community": 0,
-      "degree_centrality": 0.0811,
-      "betweenness_centrality": 0.0147
-    },
-    {
-      "id": "database",
-      "frequency": 19,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0152
-    },
-    {
-      "id": "macos",
-      "frequency": 24,
-      "community": 0,
-      "degree_centrality": 0.0135,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "sql",
-      "frequency": 23,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0004
-    },
-    {
-      "id": "sqlalchemy",
-      "frequency": 31,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "sockets",
-      "frequency": 16,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0815
-    },
-    {
-      "id": "jupyter-notebook",
-      "frequency": 16,
-      "community": 0,
-      "degree_centrality": 0.0135,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "multiprocessing",
-      "frequency": 16,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0037
-    },
-    {
-      "id": "class",
-      "frequency": 27,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "neural-network",
-      "frequency": 15,
-      "community": 5,
-      "degree_centrality": 0.0676,
-      "betweenness_centrality": 0.0215
-    },
-    {
-      "id": "sqlite",
-      "frequency": 25,
-      "community": 0,
-      "degree_centrality": 0.0946,
-      "betweenness_centrality": 0.0404
-    },
-    {
-      "id": "machine-learning",
-      "frequency": 42,
-      "community": 5,
-      "degree_centrality": 0.0946,
-      "betweenness_centrality": 0.0074
-    },
-    {
-      "id": "deep-learning",
-      "frequency": 22,
-      "community": 5,
-      "degree_centrality": 0.0811,
-      "betweenness_centrality": 0.0389
-    },
-    {
-      "id": "excel",
-      "frequency": 15,
-      "community": 3,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.013
-    },
-    {
-      "id": "algorithm",
-      "frequency": 25,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "pyqt5",
-      "frequency": 21,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "django-models",
-      "frequency": 25,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "django-views",
-      "frequency": 15,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.027
-    },
-    {
-      "id": "tensorflow",
-      "frequency": 79,
-      "community": 5,
-      "degree_centrality": 0.0946,
-      "betweenness_centrality": 0.0224
-    },
-    {
-      "id": "keras",
-      "frequency": 43,
-      "community": 5,
-      "degree_centrality": 0.0676,
-      "betweenness_centrality": 0.0002
-    },
-    {
-      "id": "pyspark",
-      "frequency": 17,
-      "community": 0,
-      "degree_centrality": 0.0135,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "discord.py",
-      "frequency": 33,
-      "community": 1,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "pytorch",
-      "frequency": 18,
-      "community": 5,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "discord",
-      "frequency": 24,
-      "community": 1,
-      "degree_centrality": 0.0541,
       "betweenness_centrality": 0.0
     }
   ],
@@ -629,27 +454,12 @@
     },
     {
       "source": "python",
-      "target": "pyqt",
-      "weight": 21
-    },
-    {
-      "source": "python",
       "target": "django",
       "weight": 222
     },
     {
       "source": "python",
-      "target": "opencv",
-      "weight": 47
-    },
-    {
-      "source": "python",
       "target": "javascript",
-      "weight": 28
-    },
-    {
-      "source": "python",
-      "target": "for-loop",
       "weight": 28
     },
     {
@@ -684,18 +494,8 @@
     },
     {
       "source": "python",
-      "target": "function",
-      "weight": 30
-    },
-    {
-      "source": "python",
       "target": "python-requests",
       "weight": 20
-    },
-    {
-      "source": "python",
-      "target": "pycharm",
-      "weight": 17
     },
     {
       "source": "python",
@@ -714,31 +514,6 @@
     },
     {
       "source": "python",
-      "target": "loops",
-      "weight": 29
-    },
-    {
-      "source": "python",
-      "target": "ubuntu",
-      "weight": 15
-    },
-    {
-      "source": "python",
-      "target": "amazon-web-services",
-      "weight": 19
-    },
-    {
-      "source": "python",
-      "target": "linux",
-      "weight": 19
-    },
-    {
-      "source": "python",
-      "target": "raspberry-pi",
-      "weight": 24
-    },
-    {
-      "source": "python",
       "target": "dataframe",
       "weight": 123
     },
@@ -754,28 +529,8 @@
     },
     {
       "source": "python",
-      "target": "datetime",
-      "weight": 17
-    },
-    {
-      "source": "python",
-      "target": "django-rest-framework",
-      "weight": 17
-    },
-    {
-      "source": "python",
-      "target": "kivy",
-      "weight": 24
-    },
-    {
-      "source": "python",
       "target": "beautifulsoup",
       "weight": 49
-    },
-    {
-      "source": "python",
-      "target": "nlp",
-      "weight": 16
     },
     {
       "source": "python",
@@ -789,18 +544,8 @@
     },
     {
       "source": "python",
-      "target": "macos",
-      "weight": 24
-    },
-    {
-      "source": "python",
       "target": "sql",
       "weight": 23
-    },
-    {
-      "source": "python",
-      "target": "sqlalchemy",
-      "weight": 31
     },
     {
       "source": "python",
@@ -809,18 +554,8 @@
     },
     {
       "source": "python",
-      "target": "jupyter-notebook",
-      "weight": 16
-    },
-    {
-      "source": "python",
       "target": "multiprocessing",
       "weight": 16
-    },
-    {
-      "source": "python",
-      "target": "class",
-      "weight": 27
     },
     {
       "source": "python",
@@ -849,21 +584,6 @@
     },
     {
       "source": "python",
-      "target": "algorithm",
-      "weight": 25
-    },
-    {
-      "source": "python",
-      "target": "pyqt5",
-      "weight": 21
-    },
-    {
-      "source": "python",
-      "target": "django-models",
-      "weight": 25
-    },
-    {
-      "source": "python",
       "target": "django-views",
       "weight": 15
     },
@@ -876,26 +596,6 @@
       "source": "python",
       "target": "keras",
       "weight": 43
-    },
-    {
-      "source": "python",
-      "target": "pyspark",
-      "weight": 17
-    },
-    {
-      "source": "python",
-      "target": "discord.py",
-      "weight": 33
-    },
-    {
-      "source": "python",
-      "target": "pytorch",
-      "weight": 18
-    },
-    {
-      "source": "python",
-      "target": "discord",
-      "weight": 24
     },
     {
       "source": "windows",
@@ -1009,23 +709,8 @@
     },
     {
       "source": "python-3.x",
-      "target": "class",
-      "weight": 6
-    },
-    {
-      "source": "python-3.x",
-      "target": "opencv",
-      "weight": 5
-    },
-    {
-      "source": "python-3.x",
       "target": "tkinter",
       "weight": 13
-    },
-    {
-      "source": "python-3.x",
-      "target": "raspberry-pi",
-      "weight": 5
     },
     {
       "source": "python-3.x",
@@ -1064,11 +749,6 @@
     },
     {
       "source": "python-3.x",
-      "target": "kivy",
-      "weight": 4
-    },
-    {
-      "source": "python-3.x",
       "target": "recursion",
       "weight": 5
     },
@@ -1104,18 +784,8 @@
     },
     {
       "source": "python-3.x",
-      "target": "algorithm",
-      "weight": 3
-    },
-    {
-      "source": "python-3.x",
       "target": "scikit-learn",
       "weight": 3
-    },
-    {
-      "source": "python-3.x",
-      "target": "linux",
-      "weight": 4
     },
     {
       "source": "python-3.x",
@@ -1129,17 +799,7 @@
     },
     {
       "source": "python-3.x",
-      "target": "function",
-      "weight": 4
-    },
-    {
-      "source": "python-3.x",
       "target": "sockets",
-      "weight": 3
-    },
-    {
-      "source": "python-3.x",
-      "target": "discord",
       "weight": 3
     },
     {
@@ -1179,11 +839,6 @@
     },
     {
       "source": "dictionary",
-      "target": "loops",
-      "weight": 3
-    },
-    {
-      "source": "dictionary",
       "target": "list",
       "weight": 6
     },
@@ -1196,11 +851,6 @@
       "source": "flask",
       "target": "sql",
       "weight": 4
-    },
-    {
-      "source": "flask",
-      "target": "sqlalchemy",
-      "weight": 8
     },
     {
       "source": "flask",
@@ -1323,19 +973,9 @@
       "weight": 5
     },
     {
-      "source": "pyqt",
-      "target": "pyqt5",
-      "weight": 7
-    },
-    {
       "source": "django",
       "target": "mysql",
       "weight": 3
-    },
-    {
-      "source": "django",
-      "target": "django-rest-framework",
-      "weight": 17
     },
     {
       "source": "django",
@@ -1354,11 +994,6 @@
     },
     {
       "source": "django",
-      "target": "django-models",
-      "weight": 25
-    },
-    {
-      "source": "django",
       "target": "django-views",
       "weight": 15
     },
@@ -1368,19 +1003,9 @@
       "weight": 4
     },
     {
-      "source": "opencv",
-      "target": "numpy",
-      "weight": 7
-    },
-    {
       "source": "javascript",
       "target": "web-scraping",
       "weight": 3
-    },
-    {
-      "source": "for-loop",
-      "target": "list",
-      "weight": 7
     },
     {
       "source": "matrix",
@@ -1411,11 +1036,6 @@
       "source": "list",
       "target": "pandas",
       "weight": 4
-    },
-    {
-      "source": "list",
-      "target": "loops",
-      "weight": 5
     },
     {
       "source": "list",
@@ -1453,11 +1073,6 @@
       "weight": 4
     },
     {
-      "source": "function",
-      "target": "pandas",
-      "weight": 4
-    },
-    {
       "source": "python-requests",
       "target": "web-scraping",
       "weight": 4
@@ -1478,19 +1093,9 @@
       "weight": 18
     },
     {
-      "source": "loops",
-      "target": "pandas",
-      "weight": 4
-    },
-    {
       "source": "pandas",
       "target": "dataframe",
       "weight": 102
-    },
-    {
-      "source": "pandas",
-      "target": "datetime",
-      "weight": 10
     },
     {
       "source": "pandas",
@@ -1510,11 +1115,6 @@
     {
       "source": "dataframe",
       "target": "json",
-      "weight": 3
-    },
-    {
-      "source": "mysql",
-      "target": "sqlalchemy",
       "weight": 3
     },
     {
@@ -1553,21 +1153,6 @@
       "weight": 3
     },
     {
-      "source": "neural-network",
-      "target": "pytorch",
-      "weight": 3
-    },
-    {
-      "source": "sqlite",
-      "target": "discord",
-      "weight": 3
-    },
-    {
-      "source": "sqlite",
-      "target": "discord.py",
-      "weight": 3
-    },
-    {
       "source": "machine-learning",
       "target": "deep-learning",
       "weight": 10
@@ -1593,24 +1178,9 @@
       "weight": 9
     },
     {
-      "source": "django-models",
-      "target": "django-views",
-      "weight": 4
-    },
-    {
       "source": "tensorflow",
       "target": "keras",
       "weight": 33
-    },
-    {
-      "source": "tensorflow",
-      "target": "pytorch",
-      "weight": 3
-    },
-    {
-      "source": "discord.py",
-      "target": "discord",
-      "weight": 18
     }
   ]
 }

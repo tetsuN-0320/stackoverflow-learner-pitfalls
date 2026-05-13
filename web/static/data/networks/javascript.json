@@ -1,11 +1,25 @@
 {
   "nodes": [
     {
-      "id": "javascript",
-      "frequency": 2976,
+      "id": "html",
+      "frequency": 629,
       "community": 0,
-      "degree_centrality": 1.0,
-      "betweenness_centrality": 0.0861
+      "degree_centrality": 0.473,
+      "betweenness_centrality": 0.3318
+    },
+    {
+      "id": "reactjs",
+      "frequency": 392,
+      "community": 2,
+      "degree_centrality": 0.3514,
+      "betweenness_centrality": 0.2269
+    },
+    {
+      "id": "node.js",
+      "frequency": 294,
+      "community": 1,
+      "degree_centrality": 0.3784,
+      "betweenness_centrality": 0.1635
     },
     {
       "id": "jquery",
@@ -15,13 +29,6 @@
       "betweenness_centrality": 0.1568
     },
     {
-      "id": "html",
-      "frequency": 629,
-      "community": 0,
-      "degree_centrality": 0.473,
-      "betweenness_centrality": 0.3318
-    },
-    {
       "id": "css",
       "frequency": 313,
       "community": 0,
@@ -29,18 +36,46 @@
       "betweenness_centrality": 0.1064
     },
     {
-      "id": "json",
-      "frequency": 69,
-      "community": 0,
-      "degree_centrality": 0.1351,
-      "betweenness_centrality": 0.0122
+      "id": "express",
+      "frequency": 56,
+      "community": 1,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0976
     },
     {
-      "id": "function",
-      "frequency": 24,
+      "id": "javascript",
+      "frequency": 2976,
       "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.002
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0861
+    },
+    {
+      "id": "vue.js",
+      "frequency": 78,
+      "community": 3,
+      "degree_centrality": 0.1081,
+      "betweenness_centrality": 0.0711
+    },
+    {
+      "id": "android",
+      "frequency": 18,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.069
+    },
+    {
+      "id": "react-native",
+      "frequency": 74,
+      "community": 2,
+      "degree_centrality": 0.0946,
+      "betweenness_centrality": 0.0642
+    },
+    {
+      "id": "typescript",
+      "frequency": 85,
+      "community": 3,
+      "degree_centrality": 0.1351,
+      "betweenness_centrality": 0.0574
     },
     {
       "id": "ajax",
@@ -50,25 +85,39 @@
       "betweenness_centrality": 0.0365
     },
     {
-      "id": "ruby-on-rails",
-      "frequency": 18,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
+      "id": "firebase",
+      "frequency": 47,
+      "community": 2,
+      "degree_centrality": 0.1081,
+      "betweenness_centrality": 0.0358
     },
     {
-      "id": "angularjs",
-      "frequency": 106,
+      "id": "object",
+      "frequency": 25,
       "community": 0,
-      "degree_centrality": 0.1216,
-      "betweenness_centrality": 0.0226
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0357
     },
     {
-      "id": "asynchronous",
-      "frequency": 23,
-      "community": 1,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
+      "id": "php",
+      "frequency": 144,
+      "community": 0,
+      "degree_centrality": 0.1892,
+      "betweenness_centrality": 0.0333
+    },
+    {
+      "id": "arrays",
+      "frequency": 115,
+      "community": 0,
+      "degree_centrality": 0.1622,
+      "betweenness_centrality": 0.033
+    },
+    {
+      "id": "electron",
+      "frequency": 19,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0283
     },
     {
       "id": "promise",
@@ -78,11 +127,123 @@
       "betweenness_centrality": 0.028
     },
     {
-      "id": "websocket",
-      "frequency": 14,
+      "id": "svg",
+      "frequency": 22,
+      "community": 0,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.027
+    },
+    {
+      "id": "angularjs",
+      "frequency": 106,
+      "community": 0,
+      "degree_centrality": 0.1216,
+      "betweenness_centrality": 0.0226
+    },
+    {
+      "id": "unit-testing",
+      "frequency": 12,
+      "community": 2,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0225
+    },
+    {
+      "id": "google-chrome",
+      "frequency": 32,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0224
+    },
+    {
+      "id": "browser",
+      "frequency": 15,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0205
+    },
+    {
+      "id": "ecmascript-6",
+      "frequency": 23,
       "community": 1,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0202
+    },
+    {
+      "id": "for-loop",
+      "frequency": 15,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0163
+    },
+    {
+      "id": "mysql",
+      "frequency": 24,
+      "community": 0,
+      "degree_centrality": 0.0811,
+      "betweenness_centrality": 0.0156
+    },
+    {
+      "id": "input",
+      "frequency": 15,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0151
+    },
+    {
+      "id": "json",
+      "frequency": 69,
+      "community": 0,
+      "degree_centrality": 0.1351,
+      "betweenness_centrality": 0.0122
+    },
+    {
+      "id": "google-cloud-firestore",
+      "frequency": 24,
+      "community": 2,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0122
+    },
+    {
+      "id": "laravel",
+      "frequency": 16,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0085
+    },
+    {
+      "id": "wordpress",
+      "frequency": 19,
+      "community": 0,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0083
+    },
+    {
+      "id": "asp.net",
+      "frequency": 15,
+      "community": 0,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0081
+    },
+    {
+      "id": "webpack",
+      "frequency": 23,
+      "community": 1,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0076
+    },
+    {
+      "id": "asp.net-mvc",
+      "frequency": 19,
+      "community": 0,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0065
+    },
+    {
+      "id": "ios",
+      "frequency": 13,
+      "community": 2,
       "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0044
+      "betweenness_centrality": 0.0059
     },
     {
       "id": "canvas",
@@ -90,6 +251,76 @@
       "community": 0,
       "degree_centrality": 0.0541,
       "betweenness_centrality": 0.0049
+    },
+    {
+      "id": "websocket",
+      "frequency": 14,
+      "community": 1,
+      "degree_centrality": 0.027,
+      "betweenness_centrality": 0.0044
+    },
+    {
+      "id": "twitter-bootstrap",
+      "frequency": 14,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0035
+    },
+    {
+      "id": "google-sheets",
+      "frequency": 13,
+      "community": 4,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0035
+    },
+    {
+      "id": "java",
+      "frequency": 21,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0033
+    },
+    {
+      "id": "react-redux",
+      "frequency": 17,
+      "community": 2,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0026
+    },
+    {
+      "id": "jestjs",
+      "frequency": 16,
+      "community": 2,
+      "degree_centrality": 0.0541,
+      "betweenness_centrality": 0.0022
+    },
+    {
+      "id": "function",
+      "frequency": 24,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.002
+    },
+    {
+      "id": "mongoose",
+      "frequency": 20,
+      "community": 1,
+      "degree_centrality": 0.0676,
+      "betweenness_centrality": 0.0017
+    },
+    {
+      "id": "ruby-on-rails",
+      "frequency": 18,
+      "community": 0,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
+    },
+    {
+      "id": "asynchronous",
+      "frequency": 23,
+      "community": 1,
+      "degree_centrality": 0.0405,
+      "betweenness_centrality": 0.0
     },
     {
       "id": "three.js",
@@ -106,13 +337,6 @@
       "betweenness_centrality": 0.0
     },
     {
-      "id": "reactjs",
-      "frequency": 392,
-      "community": 2,
-      "degree_centrality": 0.3514,
-      "betweenness_centrality": 0.2269
-    },
-    {
       "id": "date",
       "frequency": 13,
       "community": 0,
@@ -124,405 +348,6 @@
       "frequency": 25,
       "community": 0,
       "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "asp.net",
-      "frequency": 15,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0081
-    },
-    {
-      "id": "node.js",
-      "frequency": 294,
-      "community": 1,
-      "degree_centrality": 0.3784,
-      "betweenness_centrality": 0.1635
-    },
-    {
-      "id": "wordpress",
-      "frequency": 19,
-      "community": 0,
-      "degree_centrality": 0.0676,
-      "betweenness_centrality": 0.0083
-    },
-    {
-      "id": "mysql",
-      "frequency": 24,
-      "community": 0,
-      "degree_centrality": 0.0811,
-      "betweenness_centrality": 0.0156
-    },
-    {
-      "id": "php",
-      "frequency": 144,
-      "community": 0,
-      "degree_centrality": 0.1892,
-      "betweenness_centrality": 0.0333
-    },
-    {
-      "id": "html5-canvas",
-      "frequency": 14,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "arrays",
-      "frequency": 115,
-      "community": 0,
-      "degree_centrality": 0.1622,
-      "betweenness_centrality": 0.033
-    },
-    {
-      "id": "unit-testing",
-      "frequency": 12,
-      "community": 2,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0225
-    },
-    {
-      "id": "forms",
-      "frequency": 30,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "ios",
-      "frequency": 13,
-      "community": 2,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0059
-    },
-    {
-      "id": "mongoose",
-      "frequency": 20,
-      "community": 1,
-      "degree_centrality": 0.0676,
-      "betweenness_centrality": 0.0017
-    },
-    {
-      "id": "twitter-bootstrap",
-      "frequency": 14,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0035
-    },
-    {
-      "id": "google-apps-script",
-      "frequency": 22,
-      "community": 4,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "google-sheets",
-      "frequency": 13,
-      "community": 4,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0035
-    },
-    {
-      "id": "d3.js",
-      "frequency": 31,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "loops",
-      "frequency": 19,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "input",
-      "frequency": 15,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0151
-    },
-    {
-      "id": "iframe",
-      "frequency": 16,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "google-chrome",
-      "frequency": 32,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0224
-    },
-    {
-      "id": "google-chrome-extension",
-      "frequency": 26,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "java",
-      "frequency": 21,
-      "community": 0,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0033
-    },
-    {
-      "id": "object",
-      "frequency": 25,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0357
-    },
-    {
-      "id": "c#",
-      "frequency": 28,
-      "community": 0,
-      "degree_centrality": 0.0676,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "svg",
-      "frequency": 22,
-      "community": 0,
-      "degree_centrality": 0.0676,
-      "betweenness_centrality": 0.027
-    },
-    {
-      "id": "android",
-      "frequency": 18,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.069
-    },
-    {
-      "id": "ecmascript-6",
-      "frequency": 23,
-      "community": 1,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0202
-    },
-    {
-      "id": "google-maps",
-      "frequency": 17,
-      "community": 0,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "asp.net-mvc",
-      "frequency": 19,
-      "community": 0,
-      "degree_centrality": 0.0676,
-      "betweenness_centrality": 0.0065
-    },
-    {
-      "id": "express",
-      "frequency": 56,
-      "community": 1,
-      "degree_centrality": 0.0811,
-      "betweenness_centrality": 0.0976
-    },
-    {
-      "id": "firebase",
-      "frequency": 47,
-      "community": 2,
-      "degree_centrality": 0.1081,
-      "betweenness_centrality": 0.0358
-    },
-    {
-      "id": "webpack",
-      "frequency": 23,
-      "community": 1,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0076
-    },
-    {
-      "id": "mongodb",
-      "frequency": 35,
-      "community": 1,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "react-native",
-      "frequency": 74,
-      "community": 2,
-      "degree_centrality": 0.0946,
-      "betweenness_centrality": 0.0642
-    },
-    {
-      "id": "for-loop",
-      "frequency": 15,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0163
-    },
-    {
-      "id": "browser",
-      "frequency": 15,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0205
-    },
-    {
-      "id": "angular",
-      "frequency": 70,
-      "community": 3,
-      "degree_centrality": 0.0811,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "typescript",
-      "frequency": 85,
-      "community": 3,
-      "degree_centrality": 0.1351,
-      "betweenness_centrality": 0.0574
-    },
-    {
-      "id": "firebase-realtime-database",
-      "frequency": 14,
-      "community": 2,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "vuejs2",
-      "frequency": 23,
-      "community": 3,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "react-redux",
-      "frequency": 17,
-      "community": 2,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0026
-    },
-    {
-      "id": "redux",
-      "frequency": 28,
-      "community": 2,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "vue.js",
-      "frequency": 78,
-      "community": 3,
-      "degree_centrality": 0.1081,
-      "betweenness_centrality": 0.0711
-    },
-    {
-      "id": "laravel",
-      "frequency": 16,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0085
-    },
-    {
-      "id": "fetch",
-      "frequency": 14,
-      "community": 2,
-      "degree_centrality": 0.027,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "electron",
-      "frequency": 19,
-      "community": 0,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0283
-    },
-    {
-      "id": "react-router",
-      "frequency": 18,
-      "community": 2,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "npm",
-      "frequency": 16,
-      "community": 1,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "axios",
-      "frequency": 18,
-      "community": 2,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "async-await",
-      "frequency": 13,
-      "community": 0,
-      "degree_centrality": 0.0135,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "discord",
-      "frequency": 15,
-      "community": 1,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "discord.js",
-      "frequency": 24,
-      "community": 1,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "google-cloud-firestore",
-      "frequency": 24,
-      "community": 2,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0122
-    },
-    {
-      "id": "jestjs",
-      "frequency": 16,
-      "community": 2,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0022
-    },
-    {
-      "id": "next.js",
-      "frequency": 32,
-      "community": 2,
-      "degree_centrality": 0.0541,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "react-hooks",
-      "frequency": 35,
-      "community": 2,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "react-router-dom",
-      "frequency": 13,
-      "community": 2,
-      "degree_centrality": 0.0405,
-      "betweenness_centrality": 0.0
-    },
-    {
-      "id": "vuejs3",
-      "frequency": 13,
-      "community": 3,
-      "degree_centrality": 0.027,
       "betweenness_centrality": 0.0
     }
   ],
@@ -639,11 +464,6 @@
     },
     {
       "source": "javascript",
-      "target": "html5-canvas",
-      "weight": 14
-    },
-    {
-      "source": "javascript",
       "target": "arrays",
       "weight": 115
     },
@@ -651,11 +471,6 @@
       "source": "javascript",
       "target": "unit-testing",
       "weight": 12
-    },
-    {
-      "source": "javascript",
-      "target": "forms",
-      "weight": 30
     },
     {
       "source": "javascript",
@@ -674,23 +489,8 @@
     },
     {
       "source": "javascript",
-      "target": "google-apps-script",
-      "weight": 22
-    },
-    {
-      "source": "javascript",
       "target": "google-sheets",
       "weight": 13
-    },
-    {
-      "source": "javascript",
-      "target": "d3.js",
-      "weight": 31
-    },
-    {
-      "source": "javascript",
-      "target": "loops",
-      "weight": 19
     },
     {
       "source": "javascript",
@@ -699,18 +499,8 @@
     },
     {
       "source": "javascript",
-      "target": "iframe",
-      "weight": 16
-    },
-    {
-      "source": "javascript",
       "target": "google-chrome",
       "weight": 32
-    },
-    {
-      "source": "javascript",
-      "target": "google-chrome-extension",
-      "weight": 26
     },
     {
       "source": "javascript",
@@ -721,11 +511,6 @@
       "source": "javascript",
       "target": "object",
       "weight": 25
-    },
-    {
-      "source": "javascript",
-      "target": "c#",
-      "weight": 28
     },
     {
       "source": "javascript",
@@ -741,11 +526,6 @@
       "source": "javascript",
       "target": "ecmascript-6",
       "weight": 23
-    },
-    {
-      "source": "javascript",
-      "target": "google-maps",
-      "weight": 17
     },
     {
       "source": "javascript",
@@ -769,11 +549,6 @@
     },
     {
       "source": "javascript",
-      "target": "mongodb",
-      "weight": 35
-    },
-    {
-      "source": "javascript",
       "target": "react-native",
       "weight": 74
     },
@@ -789,33 +564,13 @@
     },
     {
       "source": "javascript",
-      "target": "angular",
-      "weight": 70
-    },
-    {
-      "source": "javascript",
       "target": "typescript",
       "weight": 85
     },
     {
       "source": "javascript",
-      "target": "firebase-realtime-database",
-      "weight": 14
-    },
-    {
-      "source": "javascript",
-      "target": "vuejs2",
-      "weight": 23
-    },
-    {
-      "source": "javascript",
       "target": "react-redux",
       "weight": 17
-    },
-    {
-      "source": "javascript",
-      "target": "redux",
-      "weight": 28
     },
     {
       "source": "javascript",
@@ -829,43 +584,8 @@
     },
     {
       "source": "javascript",
-      "target": "fetch",
-      "weight": 14
-    },
-    {
-      "source": "javascript",
       "target": "electron",
       "weight": 19
-    },
-    {
-      "source": "javascript",
-      "target": "react-router",
-      "weight": 18
-    },
-    {
-      "source": "javascript",
-      "target": "npm",
-      "weight": 16
-    },
-    {
-      "source": "javascript",
-      "target": "axios",
-      "weight": 18
-    },
-    {
-      "source": "javascript",
-      "target": "async-await",
-      "weight": 13
-    },
-    {
-      "source": "javascript",
-      "target": "discord",
-      "weight": 15
-    },
-    {
-      "source": "javascript",
-      "target": "discord.js",
-      "weight": 24
     },
     {
       "source": "javascript",
@@ -876,26 +596,6 @@
       "source": "javascript",
       "target": "jestjs",
       "weight": 16
-    },
-    {
-      "source": "javascript",
-      "target": "next.js",
-      "weight": 32
-    },
-    {
-      "source": "javascript",
-      "target": "react-hooks",
-      "weight": 35
-    },
-    {
-      "source": "javascript",
-      "target": "react-router-dom",
-      "weight": 13
-    },
-    {
-      "source": "javascript",
-      "target": "vuejs3",
-      "weight": 13
     },
     {
       "source": "jquery",
@@ -939,11 +639,6 @@
     },
     {
       "source": "jquery",
-      "target": "iframe",
-      "weight": 7
-    },
-    {
-      "source": "jquery",
       "target": "wordpress",
       "weight": 6
     },
@@ -954,11 +649,6 @@
     },
     {
       "source": "jquery",
-      "target": "c#",
-      "weight": 6
-    },
-    {
-      "source": "jquery",
       "target": "twitter-bootstrap",
       "weight": 8
     },
@@ -966,11 +656,6 @@
       "source": "jquery",
       "target": "angularjs",
       "weight": 4
-    },
-    {
-      "source": "jquery",
-      "target": "forms",
-      "weight": 9
     },
     {
       "source": "jquery",
@@ -1059,11 +744,6 @@
     },
     {
       "source": "html",
-      "target": "forms",
-      "weight": 16
-    },
-    {
-      "source": "html",
       "target": "regex",
       "weight": 5
     },
@@ -1099,16 +779,6 @@
     },
     {
       "source": "html",
-      "target": "iframe",
-      "weight": 7
-    },
-    {
-      "source": "html",
-      "target": "google-chrome-extension",
-      "weight": 6
-    },
-    {
-      "source": "html",
       "target": "input",
       "weight": 4
     },
@@ -1139,11 +809,6 @@
     },
     {
       "source": "html",
-      "target": "angular",
-      "weight": 11
-    },
-    {
-      "source": "html",
       "target": "express",
       "weight": 3
     },
@@ -1154,17 +819,7 @@
     },
     {
       "source": "html",
-      "target": "html5-canvas",
-      "weight": 4
-    },
-    {
-      "source": "html",
       "target": "object",
-      "weight": 3
-    },
-    {
-      "source": "html",
-      "target": "google-maps",
       "weight": 3
     },
     {
@@ -1176,11 +831,6 @@
       "source": "html",
       "target": "typescript",
       "weight": 4
-    },
-    {
-      "source": "html",
-      "target": "google-apps-script",
-      "weight": 8
     },
     {
       "source": "html",
@@ -1209,11 +859,6 @@
     },
     {
       "source": "css",
-      "target": "iframe",
-      "weight": 3
-    },
-    {
-      "source": "css",
       "target": "ajax",
       "weight": 3
     },
@@ -1221,11 +866,6 @@
       "source": "css",
       "target": "input",
       "weight": 3
-    },
-    {
-      "source": "css",
-      "target": "angular",
-      "weight": 7
     },
     {
       "source": "css",
@@ -1309,11 +949,6 @@
     },
     {
       "source": "ajax",
-      "target": "c#",
-      "weight": 6
-    },
-    {
-      "source": "ajax",
       "target": "ruby-on-rails",
       "weight": 3
     },
@@ -1378,11 +1013,6 @@
       "weight": 3
     },
     {
-      "source": "promise",
-      "target": "axios",
-      "weight": 4
-    },
-    {
       "source": "websocket",
       "target": "node.js",
       "weight": 5
@@ -1399,21 +1029,6 @@
     },
     {
       "source": "reactjs",
-      "target": "redux",
-      "weight": 23
-    },
-    {
-      "source": "reactjs",
-      "target": "react-router",
-      "weight": 18
-    },
-    {
-      "source": "reactjs",
-      "target": "fetch",
-      "weight": 4
-    },
-    {
-      "source": "reactjs",
       "target": "webpack",
       "weight": 7
     },
@@ -1421,11 +1036,6 @@
       "source": "reactjs",
       "target": "firebase",
       "weight": 10
-    },
-    {
-      "source": "reactjs",
-      "target": "axios",
-      "weight": 9
     },
     {
       "source": "reactjs",
@@ -1454,18 +1064,8 @@
     },
     {
       "source": "reactjs",
-      "target": "next.js",
-      "weight": 18
-    },
-    {
-      "source": "reactjs",
       "target": "typescript",
       "weight": 18
-    },
-    {
-      "source": "reactjs",
-      "target": "react-hooks",
-      "weight": 34
     },
     {
       "source": "reactjs",
@@ -1474,23 +1074,8 @@
     },
     {
       "source": "reactjs",
-      "target": "npm",
-      "weight": 3
-    },
-    {
-      "source": "reactjs",
-      "target": "react-router-dom",
-      "weight": 13
-    },
-    {
-      "source": "reactjs",
       "target": "arrays",
       "weight": 5
-    },
-    {
-      "source": "asp.net",
-      "target": "c#",
-      "weight": 7
     },
     {
       "source": "node.js",
@@ -1514,38 +1099,13 @@
     },
     {
       "source": "node.js",
-      "target": "mongodb",
-      "weight": 22
-    },
-    {
-      "source": "node.js",
       "target": "arrays",
       "weight": 8
     },
     {
       "source": "node.js",
-      "target": "angular",
-      "weight": 3
-    },
-    {
-      "source": "node.js",
       "target": "webpack",
       "weight": 7
-    },
-    {
-      "source": "node.js",
-      "target": "npm",
-      "weight": 7
-    },
-    {
-      "source": "node.js",
-      "target": "discord",
-      "weight": 5
-    },
-    {
-      "source": "node.js",
-      "target": "discord.js",
-      "weight": 12
     },
     {
       "source": "node.js",
@@ -1561,16 +1121,6 @@
       "source": "node.js",
       "target": "electron",
       "weight": 4
-    },
-    {
-      "source": "node.js",
-      "target": "axios",
-      "weight": 4
-    },
-    {
-      "source": "node.js",
-      "target": "next.js",
-      "weight": 5
     },
     {
       "source": "node.js",
@@ -1591,11 +1141,6 @@
       "source": "mysql",
       "target": "java",
       "weight": 3
-    },
-    {
-      "source": "php",
-      "target": "forms",
-      "weight": 4
     },
     {
       "source": "php",
@@ -1628,11 +1173,6 @@
       "weight": 8
     },
     {
-      "source": "arrays",
-      "target": "loops",
-      "weight": 8
-    },
-    {
       "source": "unit-testing",
       "target": "jestjs",
       "weight": 5
@@ -1648,31 +1188,6 @@
       "weight": 4
     },
     {
-      "source": "mongoose",
-      "target": "mongodb",
-      "weight": 11
-    },
-    {
-      "source": "google-apps-script",
-      "target": "google-sheets",
-      "weight": 10
-    },
-    {
-      "source": "d3.js",
-      "target": "svg",
-      "weight": 8
-    },
-    {
-      "source": "loops",
-      "target": "for-loop",
-      "weight": 4
-    },
-    {
-      "source": "google-chrome",
-      "target": "google-chrome-extension",
-      "weight": 8
-    },
-    {
       "source": "java",
       "target": "android",
       "weight": 3
@@ -1683,24 +1198,9 @@
       "weight": 3
     },
     {
-      "source": "c#",
-      "target": "asp.net-mvc",
-      "weight": 6
-    },
-    {
       "source": "android",
       "target": "react-native",
       "weight": 3
-    },
-    {
-      "source": "express",
-      "target": "mongodb",
-      "weight": 9
-    },
-    {
-      "source": "firebase",
-      "target": "firebase-realtime-database",
-      "weight": 11
     },
     {
       "source": "firebase",
@@ -1718,11 +1218,6 @@
       "weight": 4
     },
     {
-      "source": "firebase",
-      "target": "angular",
-      "weight": 3
-    },
-    {
       "source": "webpack",
       "target": "vue.js",
       "weight": 3
@@ -1733,54 +1228,14 @@
       "weight": 4
     },
     {
-      "source": "react-native",
-      "target": "react-hooks",
-      "weight": 6
-    },
-    {
-      "source": "angular",
-      "target": "typescript",
-      "weight": 24
-    },
-    {
       "source": "typescript",
       "target": "vue.js",
       "weight": 5
-    },
-    {
-      "source": "typescript",
-      "target": "next.js",
-      "weight": 5
-    },
-    {
-      "source": "vuejs2",
-      "target": "vue.js",
-      "weight": 19
-    },
-    {
-      "source": "react-redux",
-      "target": "redux",
-      "weight": 9
     },
     {
       "source": "vue.js",
       "target": "laravel",
       "weight": 3
-    },
-    {
-      "source": "vue.js",
-      "target": "vuejs3",
-      "weight": 9
-    },
-    {
-      "source": "react-router",
-      "target": "react-router-dom",
-      "weight": 9
-    },
-    {
-      "source": "discord",
-      "target": "discord.js",
-      "weight": 11
     }
   ]
 }
